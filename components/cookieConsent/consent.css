@@ -1,0 +1,70 @@
+.consent {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.bob {
+  background-color: black;
+  color: white;
+  display: block;
+  margin-top: 1em;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.form-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 1em;
+  /* border: 2px solid red; */
+}
+
+.form-check-input {
+  width: 5%;
+  height: 5%;
+
+  background-color: green;
+}
+.form-check-label {
+  color: var(--white);
+  margin-left: 5%;
+}
+
+#necessary {
+  opacity: 0.6;
+}
+
+.consent-form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  color: var(--white);
+}
+
+.consent-form * p {
+  color: var(--white);
+  font-weight: normal;
+}
+
+.private-btn {
+  /* margin-top: 2em; */
+  color: var(--white);
+  font-weight: normal;
+}
+.private-btn:hover {
+  /* margin-top: 2em; */
+  opacity: 0.5;
+}
+
+@media (min-width: 500px) {
+  #rcc-decline-button {
+    /* position: absolute;
+
+
+    bottom: 0;
+  } */
+  }
+}

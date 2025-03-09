@@ -1,0 +1,91 @@
+#cf-container {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+
+  background-color: rgb(237, 243, 250);
+  background-color: var(--light-white);
+
+  border-bottom: 2px solid black;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.cf-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+}
+
+#cf-box-1 {
+  border-right: solid 2px black;
+}
+
+#cf-box-3 {
+  display: none;
+}
+#cf-phone {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  background-color: none;
+  color: var(--blue);
+  height: 2em;
+  width: 2em;
+}
+#cf-sms {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  background-color: none;
+  color: var(--blue);
+  height: 2em;
+  width: 2em;
+}
+
+#cf-wa {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  /* background-color: white; */
+  /* color: var(--text-color-greener); */
+  height: 2em;
+  width: 2em;
+}
+
+@media screen and (min-width: 821px) {
+  #cf-container {
+    /* height: 10vh; */
+    display: block;
+    background-color: transparent;
+    position: fixed;
+    width: 0%;
+  }
+
+  #cf-box-2 {
+    display: none;
+  }
+
+  #cf-box-3 {
+    display: block;
+  }
+
+  .cf-box {
+    width: 100%;
+  }
+  #cf-box-1 {
+    display: none;
+  }
+  #cf-wa {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    z-index: 5;
+  }
+}

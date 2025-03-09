@@ -1,0 +1,51 @@
+.policy-text {
+  color: var(--text-color-green);
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.policy {
+  margin-top: 12em;
+  margin-bottom: 2em;
+}
+
+.policy-title {
+  margin: 1em 0;
+}
+
+.external-link {
+  text-decoration: underline;
+  color: var(--black);
+  cursor: pointer;
+}
+.external-link:hover {
+  opacity: 0.8;
+}
+
+.table-emails {
+  width: 100%;
+  min-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+td {
+  color: black;
+  /* font-weight: bold; */
+  /* background-color: rgb(242, 238, 238); */
+  /* background-color: var(--black); */
+  /* color: white; */
+}
+td,
+th {
+  padding: 0.5em;
+  border-bottom: 2px solid var(--black);
+  text-align: left;
+  vertical-align: middle;
+  word-wrap: break-word;
+  max-width: 150px !important;
+}

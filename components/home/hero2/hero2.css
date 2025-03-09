@@ -1,0 +1,63 @@
+.hero-page2 {
+  height: 100vh;
+  background-color: var(--blue);
+}
+
+/* how to parralax */
+/* https://www.youtube.com/watch?v=wZK5_KWc8es */
+
+/*--- Start Parallax Style --*/
+
+.parallax-home2 {
+  background: url("../../../public/home-section2-340.webp") 100% !important;
+  text-align: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-color: var(--blue);
+}
+
+@media screen and (min-width: 500px) {
+  .parallax-home2 {
+    background: url("../../../public/home-section2-640.webp") fixed 100% !important;
+    text-align: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: bottom center !important;
+    background-color: var(--blue);
+  }
+}
+
+.hero2-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero2-quote {
+  /* font-size: 1.3rem;
+  font-weight: 900; */
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+  /* .hero2-quote {
+    font-size: 2.5rem;
+  } */
+}
+
+@media screen and (min-width: 800px) {
+  .parallax-home2 {
+    background: url("../../../public/home-section2-1024.webp") fixed 100% !important;
+    text-align: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: bottom center !important;
+    background-color: var(--blue);
+  }
+}

@@ -1,0 +1,215 @@
+.first {
+  background: linear-gradient(
+    to right,
+    #0c244c,
+    #0c2454,
+    #0c2454,
+    #041c3c,
+    #0c2444,
+    #041434,
+    #0c1c3c,
+    #08284c,
+    #041c40,
+    #041c40
+  );
+
+  /* background-color: var(--blue); */
+
+  height: 100vh;
+  display: block;
+  width: 100%;
+
+  /* background-image: url("../../../public/home-section1-340.webp") !important; */
+  background-image: url("../../../public/life-coaching-page-340.webp") !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+.relative {
+  display: block;
+  position: relative;
+  height: 100%;
+  border: none;
+  padding-top: 10px;
+}
+
+.section-1 {
+  height: 100vh;
+  padding-top: 250px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 5em;
+
+  background: linear-gradient(
+    to right,
+    #0c244c,
+    #0c2454,
+    #0c2454,
+    #041c3c,
+    #0c2444,
+    #041434,
+    #0c1c3c,
+    #08284c,
+    #041c40,
+    #041c40
+  );
+
+  /* background-color: black; */
+}
+
+.section-1 h1 {
+  margin-bottom: 6%;
+}
+
+.intro {
+  color: white;
+  /* color: var(--color-gold); */
+}
+
+.text-9xl {
+  color: var(--color-gold);
+  /* line-height: 50px; */
+}
+
+.text-9xl,
+.intro {
+  opacity: 0;
+}
+
+.text-9xl2 {
+  color: var(--color-gold);
+  font-size: 2.5rem;
+}
+
+#title-4 {
+}
+#title-1 {
+  margin-left: 5%;
+}
+
+#title-2 {
+  margin-left: 8%;
+}
+#title-2A {
+  margin-left: 12%;
+}
+#title-3 {
+  margin-left: 15%;
+}
+#title-3A {
+  margin-left: 18%;
+}
+
+.title-long {
+  display: none;
+}
+
+@media screen and (min-width: 550px) {
+  .text-9xl {
+    font-size: 2.8rem;
+  }
+  .section-1 h1 {
+    margin-bottom: 3%;
+  }
+  .title-long {
+    display: inline;
+  }
+  .title-short {
+    display: none;
+  }
+
+  #title-1 {
+    margin-left: 5%;
+  }
+
+  #title-2 {
+    margin-left: 5%;
+  }
+  #title-2A {
+    margin-left: 5%;
+  }
+  #title-3 {
+    margin-left: 5%;
+  }
+  #title-3A {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #title-2 {
+    margin-left: 8%;
+  }
+  #title-2A {
+    margin-left: 12%;
+  }
+  #title-3 {
+    margin-left: 15%;
+  }
+  #title-3A {
+    margin-left: 18%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .text-9xl {
+    font-size: 3.5rem;
+  }
+  .section-1 h1 {
+    margin-bottom: 0;
+  }
+
+  .section-1 {
+    padding-top: 280px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .first {
+    background-color: var(--blue);
+    height: 100vh;
+
+    display: block;
+    width: 100%;
+
+    /* background-image: url("../../../public/home-section1-600.webp") !important; */
+    background-image: url("../../../public/life-coaching-page-640.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+}
+@media (min-width: 1025px) {
+  .first {
+    background-color: var(--blue);
+    height: 100vh;
+    display: block;
+    width: 100%;
+
+    /* background-image: url("../../../public/home-section1-340.webp") !important; */
+    background-image: url("../../../public/life-coaching-page-1024.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: bottom -15px center;
+  }
+}
+
+/* 320 x 533 */
+/* nokia lumia */
+@media (width: 320px) and (height: 533px) {
+  .section-1 {
+    padding-top: 150px;
+  }
+
+  .text-9xl2 {
+    color: var(--color-gold);
+    font-size: 0.7rem;
+  }
+}

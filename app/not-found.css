@@ -1,0 +1,77 @@
+#lost-page {
+  /* background-color: red; */
+  height: 100vh;
+}
+#lost-container {
+}
+
+#not-found-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../public/lost/lost-sign-600.webp");
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Resize the background image to cover the entire container, 
+    even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  position: relative;
+}
+
+#content-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid white;
+  height: 100%;
+  color: var(--white);
+}
+.underline {
+  text-decoration: underline;
+}
+.underline:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 599px) {
+  #not-found-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/lost/lost-sign-600.webp") !important;
+
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    overflow: hidden;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #not-found-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/lost/lost-sign-1025.webp") !important;
+
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    overflow: hidden;
+    /* min-height: 95vh; */
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  #not-found-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/lost/lost-sign-1025.webp") !important;
+
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    overflow: hidden;
+    min-height: 90vh;
+  }
+}

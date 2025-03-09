@@ -1,0 +1,43 @@
+.container-hero4 {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../../public/home-section4-340.webp") !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--blue);
+  /* border: 2px solid red; */
+
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.hero-4-text {
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.hero2-page-main {
+  color: white;
+}
+
+@media and (min-width: 800px) {
+  .container-hero4 {
+    background-image: url("../../../public/home-section4-340.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--blue);
+  }
+}
+
+@media and (min-width: 1200px) {
+  .container-hero4 {
+    background-image: url("../../../public/home-section4-340.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--blue);
+  }
+}

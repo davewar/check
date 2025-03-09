@@ -1,0 +1,155 @@
+.about-page {
+  width: 100%;
+
+  color: var(--white);
+  background-image: url("../../../public/about-me-360.webp");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+
+  background-color: var(--blue);
+
+  /* min-height: 100vh; */
+  min-height: 96vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+}
+
+#about-btn-div {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#about-btn {
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  padding: 15px;
+  color: var(--black);
+  font-weight: 900;
+  background-color: #f5c518;
+  border: 2px solid #f5c518;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+#about-btn:hover {
+  /* color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+  font-weight: bold; */
+  opacity: 0.7;
+}
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about-me-box {
+  /* padding: 2em; */
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.about-me-box {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid blue; */
+}
+
+.about-me-buttons-container {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#imdb-btn {
+  border-radius: 5px;
+  padding: 15px;
+  color: var(--black);
+  font-weight: 900;
+  background-color: #f5c518;
+  border: 2px solid #f5c518;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+#imdb-btn:hover {
+  opacity: 0.7;
+}
+
+#about-btn-div {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 550px) {
+  .about-me-buttons-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-me-box {
+    text-align: center;
+  }
+  .about-me-buttons-container {
+    justify-content: space-between;
+    margin-top: 0%;
+    width: 70%;
+  }
+
+  .about-me-box h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-me-buttons-container {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+}
+
+/* 340*191 */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .about-page {
+    height: 100vh;
+    display: block;
+    width: 100%;
+    background-image: url("../../../public/about-me-800.webp") !important;
+
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+
+    background-color: var(--blue);
+  }
+}
+
+/* 800x450 */
+@media (min-width: 1025px) {
+  .about-page {
+    padding-top: 150px;
+  }
+  .about-page {
+    height: 100vh;
+    display: block;
+    width: 100%;
+    background-image: url("../../../public/about-me-1200.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+
+    background-color: var(--blue);
+  }
+}

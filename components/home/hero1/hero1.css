@@ -1,0 +1,152 @@
+.hero1-home {
+  min-height: 100vh;
+  width: 100%;
+
+  padding-top: 150px;
+  color: var(--white);
+
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+
+@media screen and (min-width: 400px) {
+  .hero1-home {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero1-home {
+    padding-top: 130px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero1-home {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero1-home {
+    padding-top: 90px;
+  }
+}
+
+.hero1-section-1 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+.item1-hero1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--white);
+  font-weight: 900;
+}
+
+/* buttons */
+
+.hero1-button-container {
+  display: none;
+}
+
+.hero1-btn {
+  border-radius: 5px;
+  padding: 0.5em;
+  /* color: var(--color-gold); */
+  /* background-color: var(--black); */
+  border: 2px solid var(--black);
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 0;
+  transition: all 0.5s ease-out;
+  text-transform: uppercase;
+  padding: 1em 1em;
+}
+#three {
+  color: white;
+  border: 2px solid white;
+}
+
+#four {
+  color: white;
+  border: 2px solid white;
+}
+#three:hover,
+#four:hover {
+  border: 2px solid var(--color-gold);
+  font-weight: bold;
+  color: var(--color-gold);
+}
+
+@media screen and (min-width: 400px) {
+  /* 2nd item */
+  .hero1-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px var(--white) solid; */
+    width: 100%;
+
+    padding: 1em;
+    margin-top: 5%;
+    margin-bottom: 1em;
+  }
+  .hero1-btn-btn-div {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .hero1-button-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 800px) {
+  .hero1-button-container {
+    justify-content: space-between;
+    margin-top: 0%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero1-button-container {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+}
+
+/* 320 x 533 */
+/* nokia lumia */
+@media (width: 320px) and (height: 533px) {
+  .hero1-home {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 80px;
+    color: var(--white);
+
+    font-weight: 700;
+  }
+}
+
+/* iphone 5se 320x568 */
+@media (width: 320px) and (height: 568px) {
+  .hero1-home {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 95px;
+    color: var(--white);
+
+    font-weight: 700;
+  }
+}

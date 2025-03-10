@@ -49,9 +49,9 @@
 }
 #one:hover,
 #two:hover {
-  border: 2px solid var(--color-gold);
+  border: 2px solid var(--white);
   font-weight: bold;
-  color: var(--color-gold);
+  color: var(--white);
 }
 .hero1-button-container {
   display: none;

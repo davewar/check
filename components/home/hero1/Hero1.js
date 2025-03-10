@@ -16,9 +16,9 @@ const Hero1 = () => {
 
             <p className="text-md text-bolder">
               And I believe YOU can. I can help unlock the potential within you
-              to achieve the life you’ve always imagined and deserve. By
-              collaborating with me we will create an action plan that will turn
-              your life around
+              to achieve the life you’ve imagined and deserve. By collaborating
+              with me, we’ll create an action plan that will turn your life
+              around and kick start your new adventure
             </p>
 
             <p className="text-md text-bolder">
@@ -27,7 +27,7 @@ const Hero1 = () => {
           </div>
 
           <div className="hero1-button-container">
-            <div id="hero1-btn-divv">
+            <div id="hero1-btn-div">
               <Link id="three" className="hero1-btn" href="/about-me">
                 About Me
               </Link>

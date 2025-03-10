@@ -11,8 +11,10 @@
 
 :root {
   --blue: #0c2752;
-  --color-gold: #c4ad65;
-  /* home/section1 font */
+  /* --color-gold: #c4ad65; */
+
+  --color-gold: #e90695;
+
   --green: #9edccd;
 
   --white: #ffffff;

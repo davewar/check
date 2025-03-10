@@ -30,19 +30,19 @@
   border-radius: 5px;
   padding: 15px;
   color: var(--black);
-  font-weight: 900;
+  /* font-weight: 900; */
   background-color: #f5c518;
   border: 2px solid #f5c518;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.5s ease-out;
+  font-weight: bold;
 }
 
 #about-btn:hover {
-  /* color: var(--color-gold);
-  border: 2px solid var(--color-gold);
-  font-weight: bold; */
-  opacity: 0.7;
+  color: #f5c518;
+  background-color: var(--black);
+  font-weight: bold;
 }
 .about-me-container {
   display: flex;
@@ -74,7 +74,8 @@
   border-radius: 5px;
   padding: 15px;
   color: var(--black);
-  font-weight: 900;
+  /* font-weight: 900; */
+  font-weight: bold;
   background-color: #f5c518;
   border: 2px solid #f5c518;
   text-decoration: none;
@@ -83,7 +84,9 @@
 }
 
 #imdb-btn:hover {
-  opacity: 0.7;
+  color: #f5c518;
+  background-color: var(--black);
+  font-weight: bold;
 }
 
 #about-btn-div {

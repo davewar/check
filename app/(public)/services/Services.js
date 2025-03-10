@@ -50,7 +50,7 @@ const PriceBox = () => {
                 Emergency one off sessions available for personal or work place
                 issues that require immediate attention. These 45 minute
                 sessions are for relieving stress &amp; tension and can also be
-                geared towards conflict resolution
+                geared for conflict resolution
               </p>
             </div>
 
@@ -89,11 +89,11 @@ const PriceBox = () => {
             info
           </h2>
 
-          <p className="last-paragraph text-md">
+          <h2 className="price-h2 center">
             If you are a production company or a broadcaster, please contact me
             to discuss how we can support our valuable crews and enhance mental
             health on your production
-          </p>
+          </h2>
           {/* 
           <p>
             Prices between £75 and £150 per session, contact me to discuss

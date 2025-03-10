@@ -24,7 +24,7 @@ const LifeSectionOne = () => {
           </div>
 
           <div className="hero1-button-container">
-            <div id="hero1-btn-divv">
+            <div id="hero1-btn-div">
               <Link id="one" className="hero1-btn" href="/about-me">
                 About Me
               </Link>

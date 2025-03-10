@@ -20,7 +20,7 @@ const Page = () => {
             <p className="center bolder text-md">
               <span className="mobile">Press </span>
               <span className="desktop">Click </span>on “start now” below to get
-              in touch and find out how I can help you
+              in touch to find out how I can help you
             </p>
           </div>
 
@@ -35,6 +35,7 @@ const Page = () => {
 
             <div className="usefull-links-container ">
               <div className="text-sm">
+                o
                 <Link
                   className="outside-link"
                   href="https://filmtvcharity.org.uk/"

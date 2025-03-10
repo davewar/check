@@ -4,7 +4,7 @@ import "./help.css";
 const Help = () => {
   return (
     <>
-      <h2 className="hero3-header center text-xxl text-bolder">
+      <h2 className="hero3-header center text-xl text-bolder">
         {" "}
         I am a Life Coach, Certified Advanced NLP Practitioner & Mentor
       </h2>
@@ -47,9 +47,10 @@ const Help = () => {
       </p>
 
       <p className="hero3-header text-md text-bolder">
-        If you are in the Film & Television Industry I can help empower you to
-        raise issues with Production/your HoD and help artistes/actors with
-        blocked creativity
+        If you work in the Film &amp; Television Industry, I can help empower
+        you to raise issues with Production/your HoD and help artistes/actors
+        with blocked creativity. Life Coaching also available for HoD’s to help
+        manage their departments/crews effectively &amp; with confidence
       </p>
     </>
   );

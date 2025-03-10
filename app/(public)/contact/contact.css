@@ -150,9 +150,23 @@
     background-color: var(--blue);
     min-height: 96vh;
     width: 100%;
-    background-image: url("../../../public/contact-640.webp") !important;
+    background-image: url("../../../public/contact-340.webp") !important;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: cover !important;
+    padding-top: 120px;
+    /* overflow: hidden; */
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .background {
+    background-color: var(--blue);
+    min-height: 96vh;
+    width: 100%;
+    background-image: url("../../../public/contact-1200-w.webp") !important;
+    background-repeat: no-repeat;
+    background-position: top -100px center;
     background-size: cover !important;
     padding-top: 120px;
     /* overflow: hidden; */

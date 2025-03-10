@@ -126,7 +126,7 @@
 /* 340*191 */
 @media (min-width: 600px) and (max-width: 1024px) {
   .about-page {
-    height: 100vh;
+    height: 96vh;
     display: block;
     width: 100%;
     background-image: url("../../../public/about-me-800.webp") !important;
@@ -145,7 +145,7 @@
     padding-top: 150px;
   }
   .about-page {
-    height: 100vh;
+    height: 96vh;
     display: block;
     width: 100%;
     background-image: url("../../../public/about-me-1200.webp") !important;

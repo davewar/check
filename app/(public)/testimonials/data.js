@@ -13,7 +13,11 @@ export const data = [
       },
       {
         id: 2,
-        text: "**New Paragraph - Gavin not got this!",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi consequatur nulla iure perferendis porro. Lorem ipsum dolor",
+      },
+      {
+        id: 3,
+        text: " Nesciunt tenetur amet hello quia, provident, ipsa esse aliquam mollitia dolores quas architecto eum sapiente. Ad, laudantium qui",
       },
     ],
   },
@@ -85,14 +89,6 @@ export const data = [
       {
         id: 1,
         text: "We first became aware of Warwicker brickwork eight years ago.",
-      },
-      {
-        id: 2,
-        text: "lorem*",
-      },
-      {
-        id: 3,
-        text: "lorem more",
       },
     ],
   },

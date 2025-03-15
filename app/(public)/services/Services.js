@@ -16,7 +16,7 @@ const PriceBox = () => {
       <div className="main-container">
         <div className="prices">
           <div className="first-section">
-            <h1 className="text-md">My Services</h1>
+            <h2 className="text-xxl">My Services</h2>
 
             <p className="">
               I am a Life Coach, Certified Advanced NLP Practitioner and Mentor
@@ -95,41 +95,10 @@ const PriceBox = () => {
             to discuss how we can support our valuable crews and enhance mental
             health on your production
           </h2>
-          {/* 
-          <p>
-            Prices between £75 and £150 per session, contact me to discuss
-            prices for transformation packages.
-          </p>
-
-          <p>
-            Discounted rates available for Students, Runners &amp;, Trainees.
-          </p>
-
-          <p className="">
-            If you are a production company or a broadcaster, please contact me
-            to discuss how we can together can support our valuable crews and
-            enhance mental health on your production team.
-          </p>
-
-          <div className="bottom-para">
-            <p className=" text-bold text-md center">
-              Get ready to <span className="black">“Check Your Gate”</span> and
-              make life altering changes by booking a free 25 minute "The Bigger
-              Picture Call" with me today!
-            </p>
-          </div>
-
-          <div className="center-div">
-            <div id="service-btn-div">
-              <Link id="service-btn" className="" href="/contact">
-                Contact Me
-              </Link>
-            </div>
-          </div> */}
         </div>
       </div>
 
-      <Arrow idvalue="services2-scroll" />
+      <Arrow idvalue="#services2-scroll" />
     </section>
   );
 };

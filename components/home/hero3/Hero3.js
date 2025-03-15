@@ -17,7 +17,7 @@ const Hero3 = () => {
         </Link>
       </div>
 
-      <Arrow idvalue="hero4-scroll" />
+      <Arrow idvalue="#hero4-scroll" />
     </section>
   );
 };

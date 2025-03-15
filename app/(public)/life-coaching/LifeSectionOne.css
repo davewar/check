@@ -88,12 +88,8 @@
   }
 }
 @media screen and (min-width: 800px) {
-  .hero1 {
+  /* .hero1 {
     padding-top: 180px;
-  }
-
-  /* .item1 p {
-    font-size: 1.6rem;
   } */
 
   .hero1-button-container {
@@ -113,37 +109,35 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .life-coach-section {
+    padding-top: 100px;
+  }
+}
+
 /* 320 x 533 */
 /* nokia lumia */
 @media (width: 320px) and (height: 533px) {
-  .hero1 {
+  /* .hero1 {
     min-height: 100vh;
     width: 100%;
-    /* background-color: blue; */
+
     padding-top: 80px;
     color: var(--white);
 
     font-weight: 700;
-  }
-  /* 
-  .item1 p {
-    font-size: 0.7rem;
   } */
 }
 
 /* iphone 5se 320x568 */
 @media (width: 320px) and (height: 568px) {
-  .hero1 {
+  /* .hero1 {
     min-height: 100vh;
     width: 100%;
-    /* background-color: blue; */
+
     padding-top: 95px;
     color: var(--white);
 
     font-weight: 700;
-  }
-
-  /* .item1 p {
-    font-size: 0.7rem;
   } */
 }

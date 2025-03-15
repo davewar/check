@@ -40,7 +40,7 @@ const Help = () => {
         </div>
       </div>
 
-      <p className="hero3-header text-lg text-bolder">
+      <p className="hero3-header text-md text-bolder">
         I can also help empower you to overcome Bullying and Harassment /
         Grievances / Raising Workplace Issues / Imposter Syndrome / Blocked
         Creativity / Mentoring

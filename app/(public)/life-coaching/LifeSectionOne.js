@@ -40,7 +40,7 @@ const LifeSectionOne = () => {
         </div>
       </div>
 
-      <Arrow idvalue="coaching-scroll" />
+      <Arrow idvalue="#coaching-scroll" />
     </section>
   );
 };

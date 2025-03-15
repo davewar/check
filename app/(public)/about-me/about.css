@@ -1,6 +1,5 @@
 .about-page {
   width: 100%;
-
   color: var(--white);
   background-image: url("../../../public/about-me-360.webp");
   background-repeat: no-repeat;
@@ -42,6 +41,7 @@
   display: block;
   width: 150px;
   text-align: center;
+  border: 2px solid var(--black);
 }
 
 #about-btn:hover {
@@ -92,6 +92,7 @@
   width: 150px;
   text-align: center;
   font-weight: bold;
+  border: 2px solid var(--black);
 }
 
 #imdb-btn:hover {
@@ -137,7 +138,7 @@
 /* 340*191 */
 @media (min-width: 600px) and (max-width: 1024px) {
   .about-page {
-    height: 96vh;
+    min-height: 96vh;
     display: block;
     width: 100%;
     background-image: url("../../../public/about-me-800.webp") !important;
@@ -150,20 +151,16 @@
   }
 }
 
-/* 800x450 */
-@media (min-width: 1025px) {
+@media (min-width: 1000px) {
   .about-page {
-    padding-top: 150px;
-  }
-  .about-page {
-    height: 96vh;
+    height: 94vh !important;
+    padding-top: 100px;
     display: block;
     width: 100%;
     background-image: url("../../../public/about-me-1200.webp") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
-
     background-color: var(--blue);
   }
 }

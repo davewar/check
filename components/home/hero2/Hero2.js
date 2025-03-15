@@ -1,14 +1,13 @@
 import React from "react";
 import "./hero2.css";
 
-// import { FaQuoteLeft } from "react-icons/fa";
-// import { FaQuoteRight } from "react-icons/fa";
+import Arrow from "../../arrow/Arrow";
 import { myLunaFont } from "../../../app/layout.js";
 
 const Hero2 = () => {
   return (
     <>
-      <section className="hero-page2">
+      <section className="hero-page2" id="hero2-scroll">
         <div className="parallax-home2">
           <div className="parallax-inner2">
             <div className="main-container  ">
@@ -23,6 +22,8 @@ const Hero2 = () => {
             </div>
           </div>
         </div>
+
+        <Arrow idvalue="hero3-scroll" />
       </section>
     </>
   );

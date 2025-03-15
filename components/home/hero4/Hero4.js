@@ -6,7 +6,7 @@ import { FaQuoteRight } from "react-icons/fa";
 
 const Hero4 = () => {
   return (
-    <section className="container-hero4">
+    <section className="container-hero4" id="hero4-scroll">
       <div className="main-container">
         <h2 className="hero-4-text text-xxl text-bolder center">
           Checking the Gate

@@ -10,48 +10,14 @@
   background-size: cover !important;
   background-position: center;
   background-color: var(--blue);
+  /* arrow */
+  position: relative;
 }
 
 .hero3-header {
   text-align: center;
 }
 
-/* ############################### */
-
-/* .ul-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.box {
-  height: 200px;
-  color: white;
-  background: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: 1em 0;
-  text-align: center;
-}
-.box1 {
-  height: 200px;
-  color: white;
-  background: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-}
-
-.points {
-  list-style-position: inside;
-  list-style-type: disc;
-} */
-
-/* 
- buttons */
 #hero3-btn-div {
   display: flex;
   width: 50%;
@@ -65,7 +31,7 @@
 
 #service-btn {
   border-radius: 5px;
-  padding: 15px;
+  /* padding: 15px; */
   color: var(--white);
   /* background-color: var(--black); */
   border: 2px solid var(--white);
@@ -73,6 +39,11 @@
   cursor: pointer;
   transition: all 0.5s ease-out;
   text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: block;
+  width: 150px;
+  text-align: center;
 }
 
 #service-btn:hover {

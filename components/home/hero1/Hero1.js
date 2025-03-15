@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero1.css";
 import Link from "next/link";
+import Arrow from "../../arrow/Arrow";
 
 const Hero1 = () => {
   return (
@@ -41,6 +42,8 @@ const Hero1 = () => {
           </div>
         </div>
       </div>
+
+      <Arrow idvalue="hero2-scroll" />
     </section>
   );
 };

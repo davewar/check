@@ -1,6 +1,7 @@
 import React from "react";
 import "./LifeSectionOne.css";
 import Link from "next/link";
+import Arrow from "../../../components/arrow/Arrow";
 
 const LifeSectionOne = () => {
   return (
@@ -30,7 +31,7 @@ const LifeSectionOne = () => {
               </Link>
             </div>
 
-            <div id="hero1-btn-div center">
+            <div id="hero1-btn-div">
               <Link id="two" className="hero1-btn" href="/contact">
                 CONTACT ME
               </Link>
@@ -38,6 +39,8 @@ const LifeSectionOne = () => {
           </div>
         </div>
       </div>
+
+      <Arrow idvalue="coaching-scroll" />
     </section>
   );
 };

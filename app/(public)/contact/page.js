@@ -35,7 +35,7 @@ const Page = () => {
 
             <div className="usefull-links-container ">
               <div className="text-sm">
-                o
+                
                 <Link
                   className="outside-link"
                   href="https://filmtvcharity.org.uk/"

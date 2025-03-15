@@ -3,6 +3,7 @@ import "./services.css";
 import Link from "next/link";
 import Help from "../../../components/help/Help";
 import { special } from "../../layout";
+import Arrow from "../../../components/arrow/Arrow";
 
 export const metadata = {
   title: "Price",
@@ -127,6 +128,8 @@ const PriceBox = () => {
           </div> */}
         </div>
       </div>
+
+      <Arrow idvalue="services2-scroll" />
     </section>
   );
 };

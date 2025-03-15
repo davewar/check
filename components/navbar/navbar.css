@@ -85,7 +85,7 @@ ul {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 16;
+  z-index: 5;
   background: transparent !important;
 }
 .nav-container {

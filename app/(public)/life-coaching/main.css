@@ -14,7 +14,8 @@
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+    background-color: var(--blue);
   }
 }
 
@@ -27,13 +28,12 @@
     background-size: cover !important;
     background-position: center;
     background-color: var(--blue);
-
-    /* overflow: hidden; */
+    min-height: 100vh;
   }
 }
 
 /* Tablet */
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px)  {
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../../../public/home-section1-1024.webp") !important;
@@ -42,23 +42,25 @@
     background-size: cover !important;
     background-position: center;
     /* overflow: hidden; */
-    /* min-height: 95vh; */
+    min-height: 100vh;
     background-color: var(--blue);
   }
 }
 
 /* Desktop */
 @media (min-width: 1025px) {
-  .hero-image {
+  /* .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../../../public/home-section1-1024.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
-    /* overflow: hidden; */
-    height: 100vh;
+
+    min-height: 100vh;
 
     background-color: var(--blue);
-  }
+  } */
+
+
 }

@@ -12,7 +12,7 @@ const Test = () => {
         <PriceBox />
       </section>
 
-      <section className="container2">
+      <section className="container2" id="services2-scroll">
         <div className="main-container">
           <Help />
           {/* 

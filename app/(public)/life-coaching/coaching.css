@@ -36,6 +36,11 @@
 
   transition: all 0.5s ease-out;
   text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: block;
+  width: 150px;
+  text-align: center;
 }
 
 #services-btn:hover {

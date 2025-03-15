@@ -189,7 +189,7 @@
 @media (min-width: 1025px) {
   .first {
     background-color: var(--blue);
-    height: 100vh;
+    min-height: 100vh;
     display: block;
     width: 100%;
 
@@ -197,7 +197,7 @@
     background-image: url("../../../public/life-coaching-page-1024.webp") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    background-position: bottom -15px center;
+    background-position: bottom  center;
   }
 }
 

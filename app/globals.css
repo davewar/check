@@ -44,7 +44,9 @@
   color: var(--color-gold);
   font-weight: bolder;
 }
-
+.html {
+  scroll-behavior: smooth;
+}
 /* .text-shadow,
 .text-shadow {
   font-size: 1.5rem;

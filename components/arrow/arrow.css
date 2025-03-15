@@ -1,0 +1,17 @@
+.arrow-container {
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 15px;
+}
+
+.arrow-down-icon {
+  height: 3em;
+  width: 3em;
+  background-color: var(--color-gold);
+}

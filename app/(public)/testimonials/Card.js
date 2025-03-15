@@ -1,5 +1,11 @@
 import React from "react";
 
+import { PiFilmSlateFill } from "react-icons/pi";
+import { FaPlay } from "react-icons/fa6";
+import { GiFilmProjector } from "react-icons/gi";
+
+import { FcFilmReel } from "react-icons/fc";
+
 const Card = ({ item }) => {
   const { id, area, client, description } = item;
 
@@ -14,10 +20,13 @@ const Card = ({ item }) => {
         </div>
       </div>
 
+      <FcFilmReel className="icon-card" />
+
       {/* <div className="client">
         <p className="text-bold center ">{client}</p>
         <p className="text-bold center ">{area}</p>
       </div>
+      
 
        */}
     </div>

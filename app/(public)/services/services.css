@@ -1,6 +1,6 @@
 .priceBox-new {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   color: var(--white);
   padding-bottom: 2em;
   /* border: 2px solid yellow; */

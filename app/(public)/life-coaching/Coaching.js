@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Coaching = () => {
   return (
-    <section className="serviceBox">
+    <section className="serviceBox" id="coaching-scroll">
       <div className="main-container ">
         <div className="box-service">
           <h1 className="text-xxl text-bolder center">Life Coaching</h1>

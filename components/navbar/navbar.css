@@ -8,8 +8,7 @@ ul {
 .website-name:hover {
   cursor: pointer;
 }
-.website-title {
-}
+
 .website-line {
   color: var(--white);
   font-weight: 500;

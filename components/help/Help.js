@@ -9,9 +9,7 @@ const Help = () => {
         I am a Life Coach, Certified Advanced NLP Practitioner & Mentor
       </h2>
 
-      <h2 className="text-bolder hero3-header  text-xl center">
-        I can help with:
-      </h2>
+      <p className="hero3-header text-md text-bolder">I can help with:</p>
       <div className="ul-container">
         <div className="card">
           <div className="ul-part">

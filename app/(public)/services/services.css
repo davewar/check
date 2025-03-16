@@ -29,13 +29,13 @@
   justify-content: center;
 } */
 
-@media and (min-width: 300px) {
+@media screen and (min-width: 300px) {
   .prices {
     margin-top: 10px;
   }
 }
 
-@media and (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .prices {
     margin-top: 10px;
   }
@@ -125,9 +125,6 @@
 }
 
 @media screen and (min-width: 800px) {
-  .priceBox-new {
-    /* max-height: 100vh; */
-  }
   .price-container {
     display: flex;
     flex-direction: row;
@@ -136,10 +133,6 @@
     align-items: center;
     min-height: 60vh;
     margin-bottom: 1em;
-  }
-
-  .priceBox-new {
-    /* padding-top: 50px; */
   }
 
   .ul-container {

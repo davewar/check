@@ -37,9 +37,8 @@ const LifeSectionOne = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div>{" "}
       </div>
-
       <Arrow idvalue="#coaching-scroll" />
     </section>
   );

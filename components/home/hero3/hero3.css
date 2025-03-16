@@ -53,49 +53,9 @@
   border: 2px solid var(--color-gold);
 }
 
-@media screen and (min-width: 768px) {
-  /* .ul-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  } */
-
-  /* .ul-container1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-  } */
-  /* .box {
-    width: 45%;
-  } */
-
-  /* .hero3-header,
-  .hero3-section,
-  .hero3-last-paga {
-    text-align: center;
-  }
-  .hero3-header {
-    font-size: 2rem;
-  } */
-}
-
-@media screen and (min-width: 900px) {
-  /* .ul-container {
-    margin-bottom: 0;
-  }
-
-  .my-underline {
-    text-decoration: none;
-  } */
-}
-
 /* ******** */
 
-@media and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .hero-3 {
     background-image: url("../../../public/home-section3-640.webp") !important;
     background-repeat: no-repeat;

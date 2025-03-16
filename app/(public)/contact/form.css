@@ -60,7 +60,7 @@ select {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--placeholder-color);
+  color: var(--color-gold);
   opacity: 0.5;
   /* padding-left: 0.25em; */
 }
@@ -151,26 +151,30 @@ textarea::placeholder {
   font-size: 700;
 }
 
-@media screen and (min-width: 500px) {
+/* nokia lumia 520 533 */
+@media (width: 320px) and (height: 533px) {
+  .form-group > textarea {
+    height: 80px;
+  }
 }
 
-/* ipad pro 1024 x 1366 */
-/* @media (width: 1024px) and (height: 1366px) {
-  .contact-page {
-    min-height: 96vh;
+/* no */
+@media (width: 320px) and (height: 533px) {
+  .form-group > textarea {
+    height: 100px;
   }
-} */
+}
 
-/* surface pro 912x1368 */
-/* @media (width: 912px) and (height: 1368px) {
-  .contact-page {
-    min-height: 96vh;
+/* nest hub*/
+@media (width: 1024px) and (height: 600px) {
+  .form-group > textarea {
+    height: 100px;
   }
-} */
+}
 
-/* asus 853 x1280*/
-/* @media (width: 853px) and (height: 1280px) {
-  .contact-page {
-    min-height: 96vh;
+/* iphine*/
+@media (width: 320px) and (height: 568px) {
+  .form-group > textarea {
+    height: 100px;
   }
-} */
+}

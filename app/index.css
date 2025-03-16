@@ -21,11 +21,11 @@
   /* border: 2px red solid; */
 }
 
-@media screen (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .main-container {
     width: 90%;
     margin: 0 auto;
     max-width: var(--max-width);
-    border: 2px red solid;
+    /* border: 2px red solid; */
   }
 }

@@ -9,7 +9,7 @@ const Coaching = () => {
         <div className="box-service">
           <h1 className="text-xxl text-bolder center">Life Coaching</h1>
 
-          <h4 className="text-bolder text-lg ">How I Can Help</h4>
+          <h4 className="text-bolder text-lg center ">How I Can Help</h4>
 
           <p className="text-md">
             You’re just a phone call away from figuring exactly how to change
@@ -19,7 +19,7 @@ const Coaching = () => {
             begin to realise that your possibilities are endless. So contact me
             to book a free Bigger Picture Call and take the lid of your dreams
           </p>
-          <h4 className="text-bolder text-lg ">What is Life Coaching?</h4>
+          <h4 className="text-bolder text-lg center">What is Life Coaching?</h4>
           <p className="text-md">
             Life coaching combined with NLP can radically transform your
             mindset, life and career. By tapping into your personal resources,
@@ -27,7 +27,7 @@ const Coaching = () => {
             Life Coaching helps bring these to the surface, empowering you to
             make the positive life changes you need
           </p>
-          <h4 className="text-lg text-bolder">What is NLP® </h4>
+          <h4 className="text-lg text-bolder center ">What is NLP® </h4>
           <p className="text-md">
             NLP, or Neuro-Linguistic Programming, founded in the 1970s, has
             empowered countless individuals to reshape their lives. It analyses

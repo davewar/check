@@ -8,19 +8,19 @@ const Hero4 = () => {
   return (
     <section className="container-hero4" id="hero4-scroll">
       <div className="main-container">
-        <h2 className="hero-4-text text-xxl text-bolder center">
+        <h1 className="hero-4-text text-xxl text-bolder center">
           Checking the Gate
-        </h2>
+        </h1>
 
         <div className="hero2-page-main">
-          <p className=" text-lg text-bolder center">
+          <p className="text-bolder center text-md">
             In the world of filmmaking, &quot;checking the gate&quot; is a
             crucial step to ensure that the film gate is clear of any debris
             before moving on to the next shot. This practice prevents hairs or
             fragments from ruining or distorting the film
           </p>
 
-          <p className="text-lg text-bolder center">
+          <p className="text-bolder center text-md">
             Similarly, NLP (Neuro-Linguistic Programming) eliminates the mental
             &quot;stray hairs&quot; that cloud our perception. By clearing these
             cognitive obstructions NLP enhances our thinking, paving the way for

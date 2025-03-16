@@ -33,7 +33,12 @@
   --text-color-greener: green;
 
   /* contact form */
-  --hr-color: #c4ad65;
+  /* --hr-color: #c4ad65; */
+  --hr-color: #e90695;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .p-white {
@@ -44,9 +49,7 @@
   color: var(--color-gold);
   font-weight: bolder;
 }
-.html {
-  scroll-behavior: smooth;
-}
+
 /* .text-shadow,
 .text-shadow {
   font-size: 1.5rem;

@@ -11,14 +11,14 @@ export const data = [
         id: 1,
         text: "Thank you from the bottom of my heart. I would still be broken if it wasn’t for your help and support",
       },
-      {
-        id: 2,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi consequatur nulla iure perferendis porro. Lorem ipsum dolor",
-      },
-      {
-        id: 3,
-        text: " Nesciunt tenetur amet hello quia, provident, ipsa esse aliquam mollitia dolores quas architecto eum sapiente. Ad, laudantium qui",
-      },
+      // {
+      //   id: 2,
+      //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi consequatur nulla iure perferendis porro. Lorem ipsum dolor",
+      // },
+      // {
+      //   id: 3,
+      //   text: " Nesciunt tenetur amet hello quia, provident, ipsa esse aliquam mollitia dolores quas architecto eum sapiente. Ad, laudantium qui",
+      // },
     ],
   },
   {
@@ -78,18 +78,18 @@ export const data = [
       },
     ],
   },
-  {
-    id: 6,
-    stars: 3,
-    title: "New Builds",
-    area: "Welling",
-    client: "Barry | Aspire Restoration ",
-    type: "Commercial work",
-    description: [
-      {
-        id: 1,
-        text: "We first became aware of Warwicker brickwork eight years ago.",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   stars: 3,
+  //   title: "New Builds",
+  //   area: "Welling",
+  //   client: "Barry | Aspire Restoration ",
+  //   type: "Commercial work",
+  //   description: [
+  //     {
+  //       id: 1,
+  //       text: "We first became aware of Warwicker brickwork eight years ago.",
+  //     },
+  //   ],
+  // },
 ];

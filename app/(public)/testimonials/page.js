@@ -16,11 +16,34 @@ const Page = () => {
       <Clients />
 
       <div className="bottom-container-div">
-        <div className={`contact-quoter ${myLunaFont.className} `}>
-          <p className="center text-bolder text-lg">
-            "You can be great just by being yourself ~ Spielberg"
-          </p>
-          {/* <p className="center text-bolder text-lg">
+        <div className="main-container">
+          <div className={`contact-quoter ${myLunaFont.className} `}>
+            <div className="container-word ">
+              <div className="word w1 text-bolder text-lg">
+                "You can be great just by being yourself ~ Spielberg"
+              </div>
+              <div className="word w2 text-bolder text-lg">
+                {" "}
+                "Negativity is the enemy of creativity ~ David Lynch"
+              </div>
+              <div className="word w3 text-bolder text-lg">
+                {" "}
+                "Life isn’t black and white, it’s a million grey areas ~ Ridley
+                Scott"
+              </div>
+              <div className="word w4 text-bolder text-lg">
+                {" "}
+                "you can’t do it unless you imagine it ~ George Lucas"
+              </div>
+              <div className="word w5 text-bolder text-lg">
+                {" "}
+                "The only safe thing to do is take a chance ~ Mike Nichols"
+              </div>
+            </div>
+            {/* <p className="center text-bolder text-lg">
+              "You can be great just by being yourself ~ Spielberg"
+            </p> */}
+            {/* <p className="center text-bolder text-lg">
             "Negativity is the enemy of creativity ~ David Lynch"
           </p>
           <p className="center text-bolder text-lg">
@@ -35,31 +58,34 @@ const Page = () => {
           <p className="center text-bolder text-lg">
             "The only safe thing to do is take a chance ~ Mike Nichols"
           </p> */}
+          </div>
         </div>
       </div>
       <p className="dw-underline text-sm center">Useful Resources</p>
-      <div className="usefull-links-container">
-        <div className="text-sm">
-          <Link
-            className="outside-link"
-            href="https://filmtvcharity.org.uk/"
-            target="_blank"
-            rel="me"
-            aria-label="link to filmtvcharity.org.uk"
-          >
-            filmtvcharity.org.uk
-          </Link>{" "}
-        </div>
-        <div className="text-sm">
-          <Link
-            className="outside-link"
-            href="https://wholepicturetoolkit.org.uk/"
-            target="_blank"
-            rel="me"
-            aria-label="link to filmtvcharity.org.uk"
-          >
-            wholepicturetoolkit.org.uk
-          </Link>
+      <div className="main-container">
+        <div className="usefull-links-container">
+          <div className="text-sm">
+            <Link
+              className="outside-link"
+              href="https://filmtvcharity.org.uk/"
+              target="_blank"
+              rel="me"
+              aria-label="link to filmtvcharity.org.uk"
+            >
+              filmtvcharity.org.uk
+            </Link>{" "}
+          </div>
+          <div className="text-sm">
+            <Link
+              className="outside-link"
+              href="https://wholepicturetoolkit.org.uk/"
+              target="_blank"
+              rel="me"
+              aria-label="link to filmtvcharity.org.uk"
+            >
+              wholepicturetoolkit.org.uk
+            </Link>
+          </div>
         </div>
       </div>
     </main>

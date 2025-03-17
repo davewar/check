@@ -85,20 +85,18 @@ const PriceBox = () => {
             </p>
           </div>
 
-          <h2 className="price-h2 center">
+          <p className="price-h2 text-md text-bolder center">
             Ongoing Support Packages Also Available – Contact me for further
             info
-          </h2>
+          </p>
 
-          <h2 className="price-h2 center">
-            If you are a production company or a broadcaster, please contact me
-            to discuss how we can support our valuable crews and enhance mental
-            health on your production
-          </h2>
+          <p className="price-h2 text-md text-bolder center last-paragraph">
+            If you are a production company or a broadcaster, contact me to
+            discuss how we can support our valuable crews and enhance mental
+            health & productivity on your production
+          </p>
         </div>
       </div>
-
-      <Arrow idvalue="#services2-scroll" />
     </section>
   );
 };

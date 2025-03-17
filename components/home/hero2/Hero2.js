@@ -23,7 +23,7 @@ const Hero2 = () => {
           </div>
         </div>
 
-        {/* <Arrow idvalue="#hero3-scroll" /> */}
+        <Arrow idvalue="#hero3-scroll" />
       </section>
     </>
   );

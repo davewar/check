@@ -42,3 +42,38 @@
     background-color: var(--blue);
   }
 }
+
+#hero4-btn-div {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+#hero4-btn {
+  border-radius: 5px;
+  /* padding: 15px; */
+  color: var(--white);
+  /* background-color: var(--black); */
+  border: 2px solid var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+
+#hero4-btn:hover {
+  color: var(--color-gold);
+
+  font-weight: bold;
+  border: 2px solid var(--color-gold);
+}

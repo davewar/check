@@ -9,13 +9,28 @@
   background-size: cover !important;
   background-position: center;
   background-color: var(--blue);
+  position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    /* min-height: 100vh; */
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../public/service600-400.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-color: var(--blue);
+  }
 }
 
 .container2 {
   /* min-height: 100vh; */
   display: block;
   width: 100%;
-  min-height: 100vh;
+  min-height: 96vh;
   background-image: url("../../../public/life-coaching-B-1500.webp") !important;
   background-repeat: no-repeat;
   background-size: cover !important;
@@ -23,6 +38,10 @@
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: var(--blue);
+}
+
+.center-container {
+  padding-top: 12%;
 }
 
 .services-button-container {

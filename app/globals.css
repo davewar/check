@@ -13,7 +13,7 @@
   --blue: #0c2752;
   /* --color-gold: #c4ad65; */
 
-  --color-gold: #e90695;
+  --color-gold: #7b25be;
 
   --green: #9edccd;
 
@@ -34,7 +34,7 @@
 
   /* contact form */
   /* --hr-color: #c4ad65; */
-  --hr-color: #e90695;
+  --hr-color: #7b25be;
 }
 
 html {
@@ -49,12 +49,6 @@ html {
   color: var(--color-gold);
   font-weight: bolder;
 }
-
-/* .text-shadow,
-.text-shadow {
-  font-size: 1.5rem;
-  text-align: center;
-} */
 
 body {
   /* font-family: "Tenorite", sans-serif; */

@@ -6,8 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 import "./reviews.css";
 
 import Card from "./Card";
-import { FaAngleDoubleRight } from "react-icons/fa";
-import { FaAngleDoubleLeft } from "react-icons/fa";
+// import { FaAngleDoubleRight } from "react-icons/fa";
+// import { FaAngleDoubleLeft } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 
 import ReactGA from "react-ga4";
 
@@ -80,6 +81,26 @@ const Clients = () => {
     arrows: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    customPaging: (i) => (
+      <div>
+        <FaPlay /> {/* Replace with your desired icon */}
+      </div>
+    ),
+    appendDots: (dots) => (
+      <div
+        style={{
+          // backgroundColor: "#ddd",
+          // borderRadius: "50px",
+          paddingTop: "50px",
+          color: "#7b25be",
+          // border: "2px solid white",
+          margin: "0px",
+        }}
+      >
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    ),
+
     responsive: [
       {
         breakpoint: 1300,

@@ -51,6 +51,8 @@
 .description {
   max-height: 400px;
   overflow-y: auto;
+
+  text-shadow: none;
 }
 
 .comment {
@@ -148,4 +150,49 @@
     height: 98vh;
     margin-bottom: auto;
   }
+}
+
+/* useful resource */
+.dw-underline {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.outside-link {
+  text-decoration: underline;
+  color: var(--white);
+}
+
+.outside-link:hover {
+  opacity: 0.7;
+}
+
+.usefull-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+/* quotes */
+
+/* .contact-quoter {
+  margin-bottom: 2.5em;
+} */
+
+.bottom-container-div {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5em;
+  margin-bottom: 2em;
+  color: white;
 }

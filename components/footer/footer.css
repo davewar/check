@@ -13,7 +13,7 @@
     #041c40
   );
 
-  color: var(--color-gold);
+  color: var(--white);
   font-weight: 600;
   margin-top: auto;
   margin-bottom: 5.5em;
@@ -39,7 +39,7 @@
 
 .social-media-icons-white {
   font-size: 2rem;
-  color: var(--color-gold);
+  color: var(--white);
   margin-left: 0.25em;
 }
 
@@ -61,11 +61,11 @@
 
 .footer-private p {
   text-align: center;
-  color: var(--color-gold);
+  color: var(--white);
 }
 
 .private {
-  color: var(--color-gold);
+  color: var(--white);
 }
 
 .private:hover {

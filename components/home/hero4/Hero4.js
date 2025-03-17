@@ -1,8 +1,7 @@
 import React from "react";
 import "./hero4.css";
 
-import { FaQuoteLeft } from "react-icons/fa";
-import { FaQuoteRight } from "react-icons/fa";
+import Link from "next/link";
 
 const Hero4 = () => {
   return (
@@ -26,6 +25,12 @@ const Hero4 = () => {
             cognitive obstructions NLP enhances our thinking, paving the way for
             a clearer brighter dynamic future
           </p>
+        </div>
+
+        <div id="hero4-btn-div">
+          <Link id="hero4-btn" className="" href="/contact">
+            CONTACT ME
+          </Link>
         </div>
       </div>
     </section>

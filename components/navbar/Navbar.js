@@ -46,8 +46,8 @@ const Navbar = () => {
           {/* <PiPhoneCallFill className="svg-icon" /> */}
           {/* <MdLocalPhone className="svg-icon" /> */}
           <FaPhoneAlt className="svg-icon" />
-          <a className="white" href="tel:+447956243954">
-            07956 243 954
+          <a className="white " href="tel:+447956243954">
+            07979 470 966
           </a>
         </div>
         <div className="nav-container ">
@@ -64,7 +64,7 @@ const Navbar = () => {
               className="logo"
               priority={true}
             />
-            <h1 className="gold  website-title ">CHECKING THE GATE</h1>
+            <h1 className="website-title  ">CHECKING THE GATE</h1>
             <p className="website-line">CHECK YOUR LENS, RESET AND REFRAME</p>
           </div>
           <button

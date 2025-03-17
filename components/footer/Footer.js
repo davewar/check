@@ -21,8 +21,8 @@ const Footer = () => {
                 Privacy-Policy |
               </Link>{" "}
               &copy;Checking The Gate {year} |{" "}
-              <a className="gold private" href="tel:+447956243954">
-                07956 243 954
+              <a className="gold private" href="tel:+447979470966">
+                07979 470 966
               </a>{" "}
               |{" "}
               <a
@@ -57,8 +57,8 @@ const Footer = () => {
                 Privacy-Policy |
               </Link>{" "}
               &copy;Checking The Gate {year} |{" "}
-              <a className="gold private" href="tel:+447956243954">
-                07956 243 954
+              <a className="gold private" href="tel:+447979470966">
+                07979 470 966
               </a>{" "}
               |{" "}
               <a

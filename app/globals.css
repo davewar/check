@@ -55,7 +55,7 @@ body {
   /* font-family: "Tenorite", "Poppins", "Montserrat"; */
   font-size: 16px;
   line-height: 1.5;
-  background: #fff;
+  background: var(--blue);
   overflow-x: hidden;
 }
 

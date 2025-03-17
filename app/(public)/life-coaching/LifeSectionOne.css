@@ -1,11 +1,41 @@
 .life-coach-section {
   min-height: 100vh;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 130px;
   color: var(--green);
   font-weight: 700;
   padding-bottom: 6em;
   position: relative;
+}
+
+@media screen and (min-width: 350px) {
+  .life-coach-section {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .life-coach-section {
+    padding-top: 75px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .life-coach-section {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .life-coach-section {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .life-coach-section {
+    padding-top: 70px;
+  }
 }
 
 .lf-section-1 {
@@ -95,21 +125,12 @@
     margin-top: 0%;
     width: 80%;
   }
-  .life-coach-section {
-    padding-top: 150px;
-  }
 }
 
 @media screen and (min-width: 1000px) {
   .hero1-button-container {
     width: 60%;
     justify-content: space-between;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .life-coach-section {
-    padding-top: 100px;
   }
 }
 

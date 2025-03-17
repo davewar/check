@@ -1,5 +1,5 @@
-import { Metadata, MetadataRoute } from "next";
-import { userAgent } from "next/server";
+import { MetadataRoute } from "next";
+// import { userAgent } from "next/server";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -7,13 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: [
-       
-          "/unauthorized",
-          "/denied",
-          "/not-found",
-          "/api/",
-        ],
+        disallow: ["/unauthorized", "/denied", "/not-found", "/api/"],
       },
     ],
 

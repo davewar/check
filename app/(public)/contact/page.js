@@ -1,32 +1,16 @@
-"use client";
-import React, { useState } from "react";
-import Modal from "./Modal";
+import Contact from "./Contact";
+
+export const metadata = {
+  title: "Contact Me",
+  description:
+    "Contact me  - This is your first step into changing your life. Book a free 20 minute phone call with me to discuss how coaching can help with what’s happening in your life",
+};
 
 const Page = () => {
-  const [showModal, setShowModal] = useState(false);
-
   return (
-    <div className="background">
-      <div className="main-container">
-        <div className="page-container" onClick={() => setShowModal(true)}>
-          <div id="contact-info">
-            <h2 className="text-lg center text-bolder">
-              Get ready to “Check Your Gate” and make life altering changes
-            </h2>
-
-            <p className="center bolder text-md">
-              <span className="mobile">Press </span>
-              <span className="desktop">Click </span>on “start now” below to
-              find out how I can help you
-            </p>
-          </div>
-        </div>
-
-        {showModal && (
-          <Modal showModal={showModal} setShowModal={setShowModal} />
-        )}
-      </div>
-    </div>
+    <>
+      <Contact />
+    </>
   );
 };
 

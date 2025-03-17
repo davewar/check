@@ -3,10 +3,6 @@ import Image from "next/image";
 import "./about.css";
 import Link from "next/link";
 
-// export const metadata = {
-//   title: "About",
-// };
-
 const About = () => {
   return (
     <section className="about-page">

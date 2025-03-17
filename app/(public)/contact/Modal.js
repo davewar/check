@@ -1,5 +1,4 @@
 "use client";
-
 import "./contact.css";
 import React, { useState, useRef, useEffect } from "react";
 import Form from "./Form";

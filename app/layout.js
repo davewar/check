@@ -1,8 +1,8 @@
 import "./globals.css";
 import "./index.css";
 
-import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
+import Navbar from "../components/navbar/Navbar";
 
 import ContactProvider from "../app/contexts/Contact";
 
@@ -12,8 +12,6 @@ import Consent from "../components/cookieConsent/Consent";
 
 import Toast from "../components/Toast";
 import localFont from "next/font/local";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 import { Poppins, Special_Elite, Courier_Prime } from "next/font/google";
 const poppins = Poppins({
@@ -26,10 +24,10 @@ const special = Special_Elite({
   weight: ["400"],
 });
 
-const courier = Courier_Prime({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
+// const courier = Courier_Prime({
+//   subsets: ["latin"],
+//   weight: ["400", "700"],
+// });
 
 // https://www.onlinewebfonts.com/search?q=tenorite
 const myFont = localFont({
@@ -47,7 +45,6 @@ const myFont = localFont({
       fallback: ["poppins", "system-ui"],
     },
   ],
-  // variable: "--font-tenorite",
 });
 
 const myLunaFont = localFont({
@@ -58,10 +55,8 @@ const myLunaFont = localFont({
       style: "normal",
     },
   ],
-  variable: "--font-luna",
+  // variable: "--font-luna",
 });
-
-export { myFont, myLunaFont, special, courier };
 
 const metadata = {
   metadataBase: new URL("https://test.com"),
@@ -77,25 +72,29 @@ const metadata = {
       "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",
     type: "website",
     locale: "en_GB",
-    url: "https://checking.app",
+    url: "https://test.com",
     siteName: "Checking The Gate",
   },
 };
+
+// export { myFont, myLunaFont, special, courier };
+// myfont = nav menu, mylunafont = quotelessJson, special = main font, poppins = backup
+export { myFont, myLunaFont, special, poppins };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${special.className} `}>
-        <ContactProvider>
-          <Toast />
-          <div className="App">
-            <Navbar />
-            {children}
-            <Footer />
-            <ContactFooter />
-            <Consent />
-          </div>
-        </ContactProvider>
+        <Toast />
+        <div className="App">
+          <Navbar />
+          <ContactProvider>{children}</ContactProvider>
+          {/* 
+          {children} */}
+          <Footer />
+          <ContactFooter />
+          <Consent />
+        </div>
       </body>
     </html>
   );

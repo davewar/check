@@ -5,10 +5,6 @@ import Help from "../../../components/help/Help";
 import { special } from "../../layout";
 import Arrow from "../../../components/arrow/Arrow";
 
-export const metadata = {
-  title: "Price",
-};
-
 const PriceBox = () => {
   return (
     <section className="priceBox-new">

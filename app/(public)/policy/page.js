@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./policy.css";
 export const metadata = {
   title: "Privacy Policy",

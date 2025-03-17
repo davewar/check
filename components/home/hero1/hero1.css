@@ -11,18 +11,13 @@
 
 @media screen and (min-width: 400px) {
   .hero1-home {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .hero1-home {
-    padding-top: 130px;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .hero1-home {
-    padding-top: 120px;
+    padding-top: 138px;
   }
 }
 

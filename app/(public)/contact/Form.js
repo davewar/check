@@ -37,6 +37,8 @@ const Form = ({ closeModal }) => {
     setCommentErr,
     submitting,
     setIsSubmitting,
+    telErr,
+    setTelErr,
   } = useContext(ContactContext);
 
   const captchaRef = useRef(null);
@@ -55,7 +57,16 @@ const Form = ({ closeModal }) => {
     {
     }
 
-    if (name && email && comment && !nameErr && !emailErr && !commentErr) {
+    if (
+      name &&
+      email &&
+      comment &&
+      tel &&
+      !nameErr &&
+      !emailErr &&
+      !commentErr &&
+      !telErr
+    ) {
       setIsSubmitting(true);
 
       // token from react google captcha
@@ -202,6 +213,9 @@ const Form = ({ closeModal }) => {
 
     if (item === "tel") {
       setTel(e.target.value);
+      e.target.value.length < 5
+        ? setTelErr("Please provide more details")
+        : setTelErr("");
     }
 
     if (item === "comment") {
@@ -287,6 +301,7 @@ const Form = ({ closeModal }) => {
                 autoComplete="off"
                 required
               />
+              {telErr && <small className="text-danger">{telErr}</small>}
               <hr />
             </div>
 

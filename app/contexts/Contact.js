@@ -12,6 +12,7 @@ const ContactProvider = ({ children }) => {
   const [nameErr, setNameErr] = useState("");
   const [emailErr, setEmailErr] = useState("");
   const [commentErr, setCommentErr] = useState("");
+  const [telErr, setTelErr] = useState("");
 
   const [submitting, setIsSubmitting] = useState(false);
 
@@ -30,6 +31,8 @@ const ContactProvider = ({ children }) => {
         setNameErr,
         emailErr,
         setEmailErr,
+        telErr,
+        setTelErr,
         commentErr,
         setCommentErr,
         submitting,

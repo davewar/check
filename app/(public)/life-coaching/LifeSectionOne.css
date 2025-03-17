@@ -10,31 +10,31 @@
 
 @media screen and (min-width: 350px) {
   .life-coach-section {
-    padding-top: 90px;
+    padding-top: 120px;
   }
 }
 
 @media screen and (min-width: 400px) {
   .life-coach-section {
-    padding-top: 75px;
+    padding-top: 110px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .life-coach-section {
-    padding-top: 100px;
+    padding-top: 135px;
   }
 }
 
 @media screen and (min-width: 900px) {
   .life-coach-section {
-    padding-top: 100px;
+    padding-top: 135px;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .life-coach-section {
-    padding-top: 70px;
+    padding-top: 100px;
   }
 }
 

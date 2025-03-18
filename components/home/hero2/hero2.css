@@ -174,31 +174,31 @@
 }
 
 .w1 {
-  -webkit-animation: w1anim 25s infinite;
-  animation: w1anim 25s infinite;
+  -webkit-animation: w1anim 20s infinite;
+  animation: w1anim 20s infinite;
 }
 
 .w2 {
-  -webkit-animation: w2anim 25s infinite;
-  animation: w2anim 25s infinite;
+  -webkit-animation: w2anim 20s infinite;
+  animation: w2anim 20s infinite;
 }
 
 .w3 {
-  -webkit-animation: w3anim 25s infinite;
-  animation: w3anim 25s infinite;
+  -webkit-animation: w3anim 20s infinite;
+  animation: w3anim 20s infinite;
 }
 
 .w4 {
-  -webkit-animation: w4anim 25s infinite;
-  animation: w4anim 25s infinite;
+  -webkit-animation: w4anim 20s infinite;
+  animation: w4anim 20s infinite;
 }
 
 .w5 {
-  -webkit-animation: w5anim 25s infinite;
+  -webkit-animation: w5anim 20s infinite;
   animation: w5anim 20s infinite;
 }
 
 .w6 {
-  -webkit-animation: w5anim 25s infinite;
-  animation: w5anim 25s infinite;
+  -webkit-animation: w5anim 20s infinite;
+  animation: w5anim 20s infinite;
 }

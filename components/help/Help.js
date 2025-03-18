@@ -4,12 +4,14 @@ import "./help.css";
 const Help = () => {
   return (
     <>
-      <h2 className="hero3-header center text-lg text-bolder">
+      <p className="hero3-header center help-text-lg text-bolder">
         {" "}
         I am a Life Coach, Certified Advanced NLP Practitioner & Mentor
-      </h2>
+      </p>
 
-      <p className="hero3-header text-md text-bolder">I can help with:</p>
+      <p className="hero3-header center help-text-lg text-bolder">
+        I can help with:
+      </p>
       <div className="ul-container">
         <div className="card">
           <div className="ul-part">
@@ -55,7 +57,7 @@ const Help = () => {
       <p className="hero3-header text-md text-bolder">
         Life Coaching also available for Artistes, Writers, Directors &
         Executives with blocked creativity, confidence issues and any other
-        areas where you would like to feel more motivated or empowered.
+        areas where you would like to feel more motivated or empowered
       </p>
     </>
   );

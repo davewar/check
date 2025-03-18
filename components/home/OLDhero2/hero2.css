@@ -32,24 +32,23 @@
 }
 
 .hero2-box {
-  /* display: flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
-  border: 2px solid blue; */
-}
-
-.hero2-box {
-  display: block;
-
-  height: 100vh;
-  width: 100%;
 }
 
 .hero2-quote {
+  /* font-size: 1.3rem;
+  font-weight: 900; */
   color: white;
+}
+
+@media screen and (min-width: 800px) {
+  /* .hero2-quote {
+    font-size: 2.5rem;
+  } */
 }
 
 @media screen and (min-width: 800px) {
@@ -71,10 +70,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 70%;
-
-  /* margin-top: 3.5em;
-  margin-bottom: 2em; */
+  margin-top: 3.5em;
+  margin-bottom: 2em;
   color: white;
 }
 
@@ -91,22 +88,22 @@
 }
 
 @media screen and (min-width: 500px) {
-  .bottom-container-div {
-    padding-top: 50%;
+  .container-word {
+    margin-top: 3em;
+    margin-bottom: 5em;
   }
 }
-@media screen and (min-width: 900px) {
-  .bottom-container-div {
-    padding-top: 30%;
-  }
-}
+
 @media screen and (min-width: 1200px) {
-  .bottom-container-div {
-    padding-top: 30%;
+  .container-word {
+    margin-top: 2em;
+    margin-bottom: 3em;
   }
 }
 
 .word {
+  /* font-size: 3em; */
+  /* font-weight: bold; */
   opacity: 0;
   position: absolute;
   width: 100%;
@@ -174,31 +171,26 @@
 }
 
 .w1 {
-  -webkit-animation: w1anim 25s infinite;
-  animation: w1anim 25s infinite;
+  -webkit-animation: w1anim 20s infinite;
+  animation: w1anim 20s infinite;
 }
 
 .w2 {
-  -webkit-animation: w2anim 25s infinite;
-  animation: w2anim 25s infinite;
+  -webkit-animation: w2anim 20s infinite;
+  animation: w2anim 20s infinite;
 }
 
 .w3 {
-  -webkit-animation: w3anim 25s infinite;
-  animation: w3anim 25s infinite;
+  -webkit-animation: w3anim 20s infinite;
+  animation: w3anim 20s infinite;
 }
 
 .w4 {
-  -webkit-animation: w4anim 25s infinite;
-  animation: w4anim 25s infinite;
+  -webkit-animation: w4anim 20s infinite;
+  animation: w4anim 20s infinite;
 }
 
 .w5 {
-  -webkit-animation: w5anim 25s infinite;
+  -webkit-animation: w5anim 20s infinite;
   animation: w5anim 20s infinite;
-}
-
-.w6 {
-  -webkit-animation: w5anim 25s infinite;
-  animation: w5anim 25s infinite;
 }

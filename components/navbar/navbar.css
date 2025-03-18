@@ -10,15 +10,16 @@ ul {
 }
 
 .website-title {
-  color: var(--white);
+  color: var(--color-gold);
 }
 
 .website-line {
   color: var(--white);
   font-weight: 500;
   font-size: 0.8em;
-  margin-bottom: 0;
+  margin-top: 0em;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .nav-button {
@@ -30,7 +31,7 @@ ul {
 }
 
 #cf-bar {
-  color: var(--white);
+  color: var(--color-gold);
   height: 3em;
   width: 3em;
   margin-bottom: auto;
@@ -49,7 +50,7 @@ ul {
 }
 
 #cf-cross {
-  color: var(--white);
+  color: var(--color-gold);
   /* light black - nice */
   /* background-color: #2f3542; */
   background: linear-gradient(
@@ -164,7 +165,7 @@ ul {
 
 .nav-link:hover {
   /* color: var(--white); */
-  color: #7b25be;
+  color: white;
 }
 .link-item {
   font-weight: bold;
@@ -179,14 +180,14 @@ ul {
   letter-spacing: 6px;
   font-weight: 700;
   /* color: var(--color-gold); */
-  color: var(--white);
+  color: var(--color-gold);
 }
 .link-item.underline::before {
   content: "";
   position: absolute;
 
   /* background-color: var(--white); */
-  background-color: #7b25be;
+  background-color: white;
   left: 0;
   bottom: 0;
   right: 0;

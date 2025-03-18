@@ -26,8 +26,8 @@ const Page = () => {
       <Intro />
       <Clients />
 
+      <p className="dw-underline text-sm center">Useful Resources</p>
       <div className="main-container">
-        <p className="dw-underline text-sm center">Useful Resources</p>
         <div className="usefull-links-container">
           <div className="text-sm">
             <Link

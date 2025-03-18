@@ -31,13 +31,27 @@
   display: block;
   width: 100%;
   min-height: 96vh;
-  background-image: url("../../../public/life-coaching-B-1500.webp") !important;
+  /* background-image: url("../../../public/life-coaching-B-1500.webp") !important;
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-position: center;
+  background-position: center; */
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: var(--blue);
+
+  background: linear-gradient(
+    to right,
+    #0c244c,
+    #0c2454,
+    #0c2454,
+    #041c3c,
+    #0c2444,
+    #041434,
+    #0c1c3c,
+    #08284c,
+    #041c40,
+    #041c40
+  );
 }
 
 .center-container {
@@ -70,6 +84,6 @@
 }
 
 #five:hover {
-  color: #e90695;
-  border: 2px solid #e90695;
+  color: var(--color-gold);
+  border: 2px solid var(--color-gold);
 }

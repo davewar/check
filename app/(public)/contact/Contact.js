@@ -16,8 +16,8 @@ const Contact = () => {
 
             <p className="center bolder text-md">
               <span className="mobile">Press </span>
-              <span className="desktop">Click </span>on “start now” below to
-              find out how I can help you
+              <span className="desktop">Click </span>on “start now” to find out
+              how I can help you
             </p>
           </div>
         </div>

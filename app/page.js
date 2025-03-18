@@ -6,7 +6,6 @@ import Hero2 from "../components/home/hero2/Hero2";
 export const metadata = {
   title: {
     default: "Checking The Gate",
-    // template: "%s - Life Coach",
   },
   description:
     "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",

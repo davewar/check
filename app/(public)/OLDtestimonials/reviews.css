@@ -16,12 +16,6 @@
     #041c40
   );
 
-  /* background-image: url("../../../public/Pixabay\ tunnel-1090486.webp") !important; */
-  background-image: url("../../../public/Pixabay\ Home\ Page\ 3a.jpg") !important;
-  background-repeat: no-repeat;
-  background-position: center !important;
-  background-size: cover !important;
-
   padding-bottom: 5em;
 }
 
@@ -173,7 +167,7 @@
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
-  padding-top: 3em;
+  margin-top: 1em;
   color: white;
   font-weight: bold;
 }

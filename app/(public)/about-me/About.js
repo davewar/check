@@ -39,18 +39,17 @@ const About = () => {
             </p>
             <div className="about-me-buttons-container">
               <div id="about-btn-div">
-                <Link id="about-btn" className="" href="/contact">
-                  Contact Me
-                </Link>
-              </div>
-
-              <div id="about-btn-div">
                 <Link
                   id="imdb-btn"
                   target="_blank"
                   href="https://www.imdb.com/name/nm1710959/"
                 >
                   My IMDB
+                </Link>
+              </div>
+              <div id="about-btn-div">
+                <Link id="about-btn" className="" href="/contact">
+                  Contact Me
                 </Link>
               </div>
             </div>

@@ -15,7 +15,7 @@ const ContactFooter = () => {
       <a
         className="cf-box"
         id="cf-box-1"
-        href="tel:+447956243954"
+        href="tel:+447979470966"
         aria-label="press phone link to call us"
       >
         <BsFillTelephoneFill id="cf-phone" aria-label="phone icon" /> Call
@@ -24,7 +24,7 @@ const ContactFooter = () => {
       <a
         className="cf-box"
         id="cf-box-2"
-        href="https://wa.me/7956243954"
+        href="tel:+447979470966"
         aria-label="press chat link to send chat message"
       >
         {/* <FaWhatsapp id="cf-wa" aria-label="sms chat icon" /> */}
@@ -40,7 +40,7 @@ const ContactFooter = () => {
       <a
         className="cf-box"
         id="cf-box-3"
-        href="https://wa.me/7956243954"
+        href="tel:+447979470966"
         aria-label="press chat link to send chat message"
         target="_blank"
       >

@@ -1,15 +1,29 @@
 .serviceBox {
   color: var(--white);
   min-height: 100vh;
-  background-image: url("../../../public/life-coaching-B-1500.webp");
+  /* background-image: url("../../../public/life-coaching-B-1500.webp");
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-position: center;
+  background-position: center; */
   width: 100%;
   padding-top: 3em;
   padding-bottom: 3em;
 
   background-color: var(--blue);
+
+  background: linear-gradient(
+    to right,
+    #0c244c,
+    #0c2454,
+    #0c2454,
+    #041c3c,
+    #0c2444,
+    #041434,
+    #0c1c3c,
+    #08284c,
+    #041c40,
+    #041c40
+  );
 }
 
 .serviceBox p {

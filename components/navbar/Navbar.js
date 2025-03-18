@@ -9,14 +9,13 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 import { ImCross } from "react-icons/im";
 import Image from "next/image";
-import logoimg from "../../public/Capture (1).jpg";
+// import logoimg from "../../public/Capture (1).jpg";
+import logoimg from "../../public/logo-120.webp";
 
 import { useRouter } from "next/navigation";
 
 import { myFont } from "../../app/layout";
 
-// import { PiPhoneCallFill } from "react-icons/pi";
-// import { MdLocalPhone } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {

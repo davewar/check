@@ -6,7 +6,18 @@ import Link from "next/link";
 import { myLunaFont } from "../../../app/layout";
 
 export const metadata = {
-  title: "Testimonials",
+  title: "Checking The Gate - Testimonials",
+  description:
+    "Life coaching clients have shared their success stories. To book a session please call Susan Warwicker on 07979 470 966.",
+  openGraph: {
+    title: "Checking The Gate | Life Coach | London and South East Kent",
+    description:
+      "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",
+    type: "website",
+    locale: "en_GB",
+    url: `${process.env.NEXTAUTH_URL}/testimonials`,
+    siteName: "Checking The Gate",
+  },
 };
 
 const Page = () => {

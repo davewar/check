@@ -7,7 +7,7 @@ import Hero1 from "../hero1/Hero1";
 import { myFont } from "../../../app/layout";
 
 const First = () => {
-  const comp = useRef(null);
+  // const comp = useRef(null);
 
   // useLayoutEffect(() => {
   //   let ctx = gsap.context(() => {

@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: `${process.env.NEXTAUTH_URL}`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
       changeFrequency: "yearly",
     },
     {
@@ -13,24 +13,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${process.env.NEXTAUTH_URL}/services`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
     },
     {
       url: `${process.env.NEXTAUTH_URL}/coaching`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
     },
 
     {
       url: `${process.env.NEXTAUTH_URL}/contact`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
     },
     {
       url: `${process.env.NEXTAUTH_URL}/testimonials`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
     },
     {
       url: `${process.env.NEXTAUTH_URL}/policy`,
-      lastModified: "2024-12-09T16:37:15.677Z",
+      lastModified: "2025-02-02T16:37:15.677Z",
     },
   ];
 }

@@ -1,5 +1,5 @@
-"use client";
-import { ClipLoader, BeatLoader } from "react-spinners";
+// "use client";
+import { BeatLoader } from "react-spinners";
 
 const Spinner = () => {
   return (

@@ -1,6 +1,6 @@
 import "./policy.css";
 export const metadata = {
-  title: "Privacy Policy",
+  title: "Checking The Gate - Privacy Policy",
 };
 
 // https://www.handcraftedwebsites.co.uk/gdpr-privacy-policy-template.html

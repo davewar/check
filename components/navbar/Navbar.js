@@ -43,8 +43,6 @@ const Navbar = () => {
       <nav className="nav-menu">
         <div className="telephone-number">
           {" "}
-          {/* <PiPhoneCallFill className="svg-icon" /> */}
-          {/* <MdLocalPhone className="svg-icon" /> */}
           <FaPhoneAlt className="svg-icon" />
           <a className="white " href="tel:+447956243954">
             07979 470 966

@@ -1,9 +1,7 @@
 import "./globals.css";
 import "./index.css";
-
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
-
 import ContactProvider from "../app/contexts/Contact";
 
 import "./index.css";
@@ -13,7 +11,8 @@ import Consent from "../components/cookieConsent/Consent";
 import Toast from "../components/Toast";
 import localFont from "next/font/local";
 
-import { Poppins, Special_Elite, Courier_Prime } from "next/font/google";
+import { Poppins, Special_Elite } from "next/font/google";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -55,46 +54,26 @@ const myLunaFont = localFont({
       style: "normal",
     },
   ],
-  // variable: "--font-luna",
 });
 
-const metadata = {
-  metadataBase: new URL("https://test.com"),
-  title: {
-    default: "Checking The Gate",
-    template: "%s - Life Coach",
-  },
-  description:
-    "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",
-  openGraph: {
-    title: "Checking The Gate | Life Coach | London and South East Kent",
-    description:
-      "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",
-    type: "website",
-    locale: "en_GB",
-    url: "https://test.com",
-    siteName: "Checking The Gate",
-  },
-};
-
-// export { myFont, myLunaFont, special, courier };
-// myfont = nav menu, mylunafont = quotelessJson, special = main font, poppins = backup
 export { myFont, myLunaFont, special, poppins };
+
+// myfont = nav menu, mylunafont = quotelessJson, special = main font, poppins = backup
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${special.className} `}>
         <Toast />
-        <div className="App">
-          <Navbar />
-          <ContactProvider>{children}</ContactProvider>
-          {/* 
-          {children} */}
-          <Footer />
-          <ContactFooter />
-          <Consent />
-        </div>
+        <ContactProvider>
+          <div className="App">
+            <Navbar />
+            {children}
+            <Footer />
+            <ContactFooter />
+            <Consent />
+          </div>
+        </ContactProvider>
       </body>
     </html>
   );

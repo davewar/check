@@ -1,6 +1,6 @@
 .background {
   background-color: var(--blue);
-  height: 100vh;
+  min-height: 96vh;
   width: 100%;
   background-image: url("../../../public/contact-340-test.webp") !important;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 .page-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-height: 96vh;
   width: 100%;
   margin: auto;
   /* border: 2px solid rgb(110, 164, 104); */

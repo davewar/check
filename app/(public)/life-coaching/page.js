@@ -1,7 +1,7 @@
 import Main from "./Main";
 
 export const metadata = {
-  title: "Checking The Gate - My Life Coaching",
+  title: "Checking The Gate - Life Coach",
   description:
     "Unlock Your Potential with Expert Life Coaching. Achieve Goals, Enhance Well-Being, and Transform Your Life with Personalized Coaching Sessions. Start Your Journey Today!",
   openGraph: {

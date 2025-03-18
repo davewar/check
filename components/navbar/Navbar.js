@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="telephone-number">
           {" "}
           <FaPhoneAlt className="svg-icon" />
-          <a className="white " href="tel:+447956243954">
+          <a className="white " href="tel:+447979470966">
             07979 470 966
           </a>
         </div>

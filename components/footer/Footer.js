@@ -63,7 +63,7 @@ const Footer = () => {
               |{" "}
               <a
                 className="gold private"
-                href="mailto: info@checkin-the-gate.com"
+                href="mailto:checkingthegateltd@gmail.com"
               >
                 checkingthegateltd@gmail.com{" "}
               </a>

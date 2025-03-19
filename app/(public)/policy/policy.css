@@ -1,5 +1,5 @@
 .policy-text {
-  color: var(--text-color-green);
+  color: var(--color-gold);
   font-weight: 700;
   margin-bottom: 1em;
 }
@@ -7,6 +7,7 @@
 .policy {
   margin-top: 12em;
   margin-bottom: 2em;
+  color: white;
 }
 
 .policy-title {
@@ -15,7 +16,7 @@
 
 .external-link {
   text-decoration: underline;
-  color: var(--black);
+  color: var(--color-gold);
   cursor: pointer;
 }
 .external-link:hover {
@@ -34,7 +35,7 @@ table {
 }
 
 td {
-  color: black;
+  color: white;
   /* font-weight: bold; */
   /* background-color: rgb(242, 238, 238); */
   /* background-color: var(--black); */
@@ -43,7 +44,7 @@ td {
 td,
 th {
   padding: 0.5em;
-  border-bottom: 2px solid var(--black);
+  border-bottom: 2px solid var(--color-gold);
   text-align: left;
   vertical-align: middle;
   word-wrap: break-word;

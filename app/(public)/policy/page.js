@@ -8,10 +8,10 @@ export const metadata = {
 const Page = () => {
   return (
     <div className="main-container policy">
-      <h3 className="policy-title">Our privacy policy</h3>
+      <h3 className="policy-title center text-md">Our privacy policy</h3>
 
       <p>
-        Last updated <strong>13th Feb 2025</strong>
+        Last updated <strong className="policy-text">18th March 2025</strong>
       </p>
 
       <p>
@@ -381,7 +381,8 @@ const Page = () => {
       <p>
         If you have questions or comments about this notice, you may contact
         <span className="policy-text"> Susan Warwicker</span> by email at{" "}
-        <span className="policy-text">info@email.com</span> or by post to:
+        <span className="policy-text">checkingthegateltd@gmail.com</span> or by
+        post to:
       </p>
 
       <p className="policy-text">

@@ -18,10 +18,57 @@
   color: white;
   align-items: center;
   justify-content: space-between;
+  /* border: 2px solid red; */
+  height: 80vh;
 }
 
 .page-container:hover {
   cursor: pointer;
+}
+
+.contact-info {
+  height: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30%;
+}
+
+@media screen and (min-width: 500px) {
+  .contact-info {
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact-info {
+    padding-bottom: 18%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .contact-info {
+    padding-bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-info {
+    padding-bottom: 12%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .contact-info {
+    padding-bottom: 8%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .contact-info {
+    padding-bottom: 5%;
+  }
 }
 
 .modal-backdrop {
@@ -65,6 +112,13 @@
     #041c40,
     #041c40
   );
+}
+
+.mobile {
+  display: inline;
+}
+.desktop {
+  display: none;
 }
 
 @media screen and (min-width: 400px) {
@@ -154,7 +208,7 @@
     min-height: 96vh;
     width: 100%;
     /* background-image: url("../../../public/iStock-1366005418.jpg") !important; */
-    background-image: url("../../../public/iStock-1366005418500-500_323.jpg") !important;
+    background-image: url("../../../public/contact-340-test.webp") !important;
     background-repeat: no-repeat;
     background-position: center center !important;
     background-size: cover !important;
@@ -174,23 +228,6 @@
 
     background-position: center -100px !important;
     /* background-size: cover !important; */
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .background {
-    /* padding-top: 20%; */
-  }
-}
-@media screen and (min-width: 1000px) {
-  .background {
-    /* padding-top: 15%; */
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .background {
-    /* padding-top: 9%; */
   }
 }
 

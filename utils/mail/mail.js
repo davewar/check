@@ -38,11 +38,11 @@ export async function sendMail({ to, subject, body }) {
       //   }
       // }
     );
-    // console.log("sendResult", sendResult);
-    // console.log("dw email sent");
+    console.log("sendResult", sendResult);
+    console.log("dw email sent");
     return { msg: "Email sent" };
   } catch (e) {
-    // console.log("dw email not sent", e.message);
+    console.log("dw email not sent", e.message);
     return { error: e.message };
   }
 }

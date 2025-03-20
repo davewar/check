@@ -10,14 +10,13 @@ const Contact = () => {
       <div className="main-container">
         <div className="page-container" onClick={() => setShowModal(true)}>
           <div className="contact-info">
-            <h2 className=" center text-bolder">
-              Get ready to “Check Your Gate” and make life altering changes
-            </h2>
-
-            <p className="center bolder ">
+            <h2 className="center text-bolder ">
               <span className="mobile">Press </span>
-              <span className="desktop">Click </span>on “start now” to find out
-              how I can help you
+              <span className="desktop">Click </span>on “start now” to contact
+              me
+            </h2>
+            <p className="center text-bold white">
+              Get ready to “Check Your Gate” and make life altering changes
             </p>
           </div>
         </div>

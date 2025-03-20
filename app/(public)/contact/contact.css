@@ -35,6 +35,9 @@
   padding-bottom: 30%;
 }
 
+.contact-info p {
+  margin-top: 0.5em;
+}
 @media screen and (min-width: 500px) {
   .contact-info {
     padding-bottom: 25%;

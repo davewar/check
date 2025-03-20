@@ -120,8 +120,8 @@ export const POST = async (request) => {
     // const newEmail = new Contact({ name, email, tel, comment });
     // await newEmail.save();
 
-    // let emailaddress = process.env.GMAIL_NAME
-    let emailaddress = "checkingthegateltd@gmail.com";
+    let emailaddress = process.env.GMAIL_NAME;
+    // let emailaddress = "checkingthegateltd@gmail.com";
 
     const data = await sendMail({
       to: emailaddress,

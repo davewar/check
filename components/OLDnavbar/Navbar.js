@@ -10,8 +10,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import Image from "next/image";
 // import logoimg from "../../public/Capture (1).jpg";
-// import logoimg from "../../public/logo-120.webp";
-import logoimg from "../../public/logo-80.webp";
+import logoimg from "../../public/logo-120.webp";
 
 import { useRouter } from "next/navigation";
 
@@ -42,6 +41,7 @@ const Navbar = () => {
     <>
       <nav className="nav-menu">
         <div className="telephone-number">
+          {" "}
           <FaPhoneAlt className="svg-icon" />
           <a className="white " href="tel:+447979470966">
             07979 470 966
@@ -49,16 +49,20 @@ const Navbar = () => {
         </div>
         <div className="nav-container ">
           <div className="website-name" onClick={() => handleLogo()}>
+            {/* <a href="/" className="nav-brand">
+              LOGO
+            </a> */}
+
+            {/* <div className="nav-brand">LOGO</div> */}
+
             <Image
               src={logoimg}
               alt="company logo which shows a camera len outline in white with green background"
               className="logo"
               priority={true}
             />
-            <div className="website-text ">
-              <h1 className="website-title">CHECKING THE GATE</h1>
-              <p className="website-line">CHECK YOUR LENS, RESET AND REFRAME</p>
-            </div>
+            <h1 className="website-title">CHECKING THE GATE</h1>
+            <p className="website-line">CHECK YOUR LENS, RESET AND REFRAME</p>
           </div>
           <button
             type="button"

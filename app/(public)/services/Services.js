@@ -16,12 +16,11 @@ const PriceBox = () => {
 
             <p className="">
               I am a Life Coach, Certified Advanced NLP Practitioner and Mentor
-              offering a variety of packages as well as one off sessions. By
-              removing self-limiting beliefs, I can empower you to create goals
-              that will lead you to your true purpose in life. I can help you
-              regardless of your situation, background, age or any obstacle you
-              believe is holding you back because I believe you&#39;re not
-              broken, only that you&#39;re temporarily stuck
+              offering coaching packages as well as one off sessions. By
+              removing self-limiting beliefs, I can help you to create goals
+              that will lead you to your true purpose in life regardless of your
+              situation, background, age or any obstacle you believe is holding
+              you back.
             </p>
           </div>
 
@@ -54,19 +53,18 @@ const PriceBox = () => {
             <div className="price-card-new">
               <h2 className="price-h2">3 Session Transformation Package</h2>
               <p className="">
-                3 Sessions packages available for immediate short term issues.
-                Sessions last between 45 minutes to 1 hour. Ongoing support
-                available in between sessions
+                Three session package available for immediate short-term issues
+                such as confidence issues, stress management and personal
+                development
               </p>
             </div>
 
             <div className="price-card-new">
               <h2 className=" price-h2">6 Session Transformation Packages</h2>
               <p className="">
-                6 Sessions packages available for big life changes such as
-                starting up a new business, career changes, relationship issues
-                or a new direction in life. Sessions last between 45 minutes to
-                1 hour. Ongoing support available in between sessions
+                Six session package available for big life changes such as
+                starting up a new business, career changes, relationship/family
+                issues or a new direction in life.
               </p>
             </div>
           </div>

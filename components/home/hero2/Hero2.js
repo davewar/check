@@ -27,15 +27,15 @@ const Hero2 = () => {
                         "Life isn’t black and white, it’s a million grey areas ~
                         Ridley Scott"
                       </div>
-                      <div className="word w4 text-bolder text-xxl">
+                      {/* <div className="word w4 text-bolder text-xxl">
                         {" "}
                         "you can’t do it unless you imagine it ~ George Lucas"
-                      </div>
-                      {/* <div className="word w5 text-bolder text-xxl">
+                      </div> */}
+                      <div className="word w4 text-bolder text-xxl">
                         {" "}
                         "The only safe thing to do is take a chance ~ Mike
                         Nichols"
-                      </div> */}
+                      </div>
 
                       <div className="word w5 text-bolder text-xxl">
                         "However Vast the Darkness we must supply our own light

@@ -134,7 +134,7 @@ export const POST = async (request) => {
     if (data?.msg) {
       return new Response(
         JSON.stringify({
-          msg: `Thank you for your enquiry. We will be in contact with you shortly.`,
+          msg: `Thank you for getting in touch, I'll get back to you shortly.`,
         }),
         {
           status: 200,

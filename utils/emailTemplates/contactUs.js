@@ -17,7 +17,7 @@ import * as React from "react";
 let year = new Date().getFullYear();
 
 const img2 =
-  "https://res.cloudinary.com/dls21lwle/image/upload/v1737915348/Capture_1_uwh8ci.jpg";
+  "https://res.cloudinary.com/dls21lwle/image/upload/v1742491162/100_png_ogonmj.png";
 
 export const Email = ({ name, tel, email, comment }) => {
   return (
@@ -38,7 +38,7 @@ export const Email = ({ name, tel, email, comment }) => {
                     fontSize: 32,
                     fontWeight: "bold",
                     textAlign: "center",
-                    color: "#42719b",
+                    color: "#7b25be",
                   }}
                 >
                   CHECKING THE GATE
@@ -49,7 +49,7 @@ export const Email = ({ name, tel, email, comment }) => {
                     fontSize: 26,
                     fontWeight: "bold",
                     textAlign: "center",
-                    color: "#03294b",
+                    color: "#7b25be",
                   }}
                 >
                   A new contact request received.
@@ -63,7 +63,7 @@ export const Email = ({ name, tel, email, comment }) => {
                   style={{
                     ...paragraph,
                     marginTop: -5,
-                    color: "#03294b",
+                    // color: "#03294b",
                     fontWeight: "bold",
                   }}
                 >
@@ -93,8 +93,8 @@ export const Email = ({ name, tel, email, comment }) => {
               color: "rgb(0,0,0, 0.7)",
             }}
           >
-            Warwicker Brickwork Limited | Copyright &copy; {year} | {"  "}All
-            rights Reserved.
+            Checking The Gate | Copyright &copy; {year} | {"  "}All rights
+            Reserved.
           </Text>
         </Container>
       </Body>
@@ -141,7 +141,13 @@ const content = {
 };
 
 const image = {
-  maxWidth: "100%",
+  // maxWidth: "100%",
+  // height: "auto",
+
+  height: "200px",
+  width: "200px",
+  marginLeft: "auto",
+  marginRight: "auto",
 };
 
 const boxInfos = {

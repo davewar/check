@@ -24,9 +24,11 @@ interface YelpRecentLoginEmailProps {
 }
 
 // npm run emails  ---  you can then amend the email live and see on localhost
+// Eg
+// http://localhost:3001/preview/index
 
 const img2 =
-  "https://res.cloudinary.com/dls21lwle/image/upload/v1737915348/Capture_1_uwh8ci.jpg";
+  "https://res.cloudinary.com/dls21lwle/image/upload/v1742491162/100_png_ogonmj.png";
 
 export const YelpRecentLoginEmail = ({
   name,
@@ -52,7 +54,7 @@ export const YelpRecentLoginEmail = ({
                     fontSize: 32,
                     fontWeight: "bold",
                     textAlign: "center",
-                    color: "#42719b",
+                    color: "#7b25be",
                   }}
                 >
                   WARWICKER BRICKWORK LIMITED
@@ -63,7 +65,7 @@ export const YelpRecentLoginEmail = ({
                     fontSize: 26,
                     fontWeight: "bold",
                     textAlign: "center",
-                    color: "#03294b",
+                    color: "#7b25be",
                   }}
                 >
                   A new client contact request received.
@@ -77,7 +79,7 @@ export const YelpRecentLoginEmail = ({
                   style={{
                     ...paragraph,
                     marginTop: -5,
-                    color: "#03294b",
+                    // color: "#03294b",
                     fontWeight: "bold",
                   }}
                 >
@@ -170,8 +172,13 @@ const content = {
 };
 
 const image = {
-  maxWidth: "100%",
-  height: "auto",
+  // maxWidth: "100%",
+  // height: "auto",
+
+  height: "200px",
+  width: "200px",
+  marginLeft: "auto",
+  marginRight: "auto",
 };
 
 const boxInfos = {

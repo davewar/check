@@ -126,18 +126,27 @@ ul {
 }
 
 .logo {
+  display: none;
+}
+
+.logo2 {
   height: auto;
   width: auto;
   display: block;
   overflow: hidden;
 }
 
-.logo2 {
-  /* height: auto;
-  width: auto;
-  display: block;
-  overflow: hidden; */
-  display: none;
+@media screen and (min-width: 350px) {
+  .logo2 {
+    display: none !important;
+  }
+
+  .logo {
+    display: block !important;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
 }
 
 .nav-menu {

@@ -12,7 +12,7 @@ import Image from "next/image";
 
 // import logoimg from "../../public/logo-120.webp";
 import logoimg from "../../public/logo-120.webp";
-// import logoimg2 from "../../public/logo-120.webp";
+import logoimg2 from "../../public/logo-150.webp";
 
 import { useRouter } from "next/navigation";
 
@@ -58,13 +58,13 @@ const Navbar = () => {
               priority={true}
             />
 
-            {/* <Image
+            <Image
               src={logoimg2}
               alt="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
               aria-label="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
               className="logo2"
               priority={true}
-            /> */}
+            />
             <div className="website-text ">
               <h1 className="website-title">CHECKING THE GATE</h1>
               <p className="website-line">CHECK YOUR LENS, RESET AND REFRAME</p>

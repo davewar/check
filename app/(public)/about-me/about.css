@@ -16,7 +16,13 @@
 
   justify-content: center;
   align-items: center;
-  padding-top: 130px;
+  padding-top: 90px;
+}
+
+@media screen and (min-width: 1000px) {
+  .about-page {
+    padding-top: 10px;
+  }
 }
 
 #about-btn-div {
@@ -151,7 +157,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .about-page {
     height: 94vh !important;
     padding-top: 100px;
@@ -163,4 +169,4 @@
     background-position: center;
     background-color: var(--blue);
   }
-}
+} */

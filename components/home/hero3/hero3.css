@@ -63,3 +63,12 @@
     background-position: center;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .hero-3 {
+    background-image: url("../../../public//home-section3-1024.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+}

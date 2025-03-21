@@ -18,9 +18,10 @@
   height: 100vh;
   display: block;
   width: 100%;
-
-  /* background-image: url("../../../public/home-section1-340.webp") !important; */
-  background-image: url("../../../public/life-coaching-page-340.webp") !important;
+  /* 
+  background-image: url("../../../public/life-coaching-page-340.webp") !important; */
+  /* background-image: url("../../../public/road-800_1000.webp") !important; */
+  background-image: url("../../../public/road-6839134_640\ Menu\ Page-cropped.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
@@ -169,7 +170,7 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   .first {
     background-color: var(--blue);
     height: 100vh;
@@ -178,13 +179,14 @@
     width: 100%;
 
     /* background-image: url("../../../public/home-section1-600.webp") !important; */
-    background-image: url("../../../public/life-coaching-page-640.webp") !important;
+    /* background-image: url("../../../public/life-coaching-page-640.webp") !important; */
+    background-image: url("../../../public/road-800_1000.webp") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1400px) {
   .first {
     background-color: var(--blue);
     min-height: 100vh;
@@ -192,10 +194,10 @@
     width: 100%;
 
     /* background-image: url("../../../public/home-section1-340.webp") !important; */
-    background-image: url("../../../public/life-coaching-page-1024.webp") !important;
+    background-image: url("../../../public/road-6839134_640\ Menu\ Page-cropped.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    background-position: bottom center;
+    background-position: bottom -200px center;
   }
 }
 

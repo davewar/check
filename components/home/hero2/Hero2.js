@@ -39,7 +39,7 @@ const Hero2 = () => {
 
                       <div className="word w5 text-bolder text-xxl">
                         "However Vast the Darkness we must supply our own light
-                        ~ Kubric"
+                        ~ Kubrick"
                       </div>
                     </div>{" "}
                   </div>

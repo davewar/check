@@ -26,19 +26,28 @@ ul {
   font-size: 1em;
 }
 .website-text p {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .website-line {
   color: var(--white);
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.7em;
   /* margin-top: 0em; */
   padding-bottom: 0;
   padding-top: 0;
 }
 
 @media (min-width: 469px) {
+  .website-text h1 {
+    font-size: 1em;
+  }
+  .website-text p {
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 500px) {
   .website-text h1 {
     font-size: 1.2em;
   }
@@ -47,12 +56,12 @@ ul {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   .website-text h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .website-text p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 
@@ -121,6 +130,14 @@ ul {
   width: auto;
   display: block;
   overflow: hidden;
+}
+
+.logo2 {
+  /* height: auto;
+  width: auto;
+  display: block;
+  overflow: hidden; */
+  display: none;
 }
 
 .nav-menu {

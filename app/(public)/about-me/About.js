@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-me-container">
           <div className="about-me-box">
             <h4 className="text-xxl text-bolder ">About Me</h4>
-            <p className="text-lg text-bold">
+            <p className="text-md text-bold">
               I’m Susan Warwicker, a Life Coach and certified Advanced NLP
               Practitioner with over 25 years experience working on film and tv
               productions

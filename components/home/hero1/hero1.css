@@ -2,22 +2,33 @@
   min-height: 100vh;
   width: 100%;
 
-  padding-top: 150px;
+  padding-top: 100px;
   color: var(--white);
 
   font-weight: 700;
   padding-bottom: 2em;
 }
+@media screen and (min-width: 300px) {
+  .hero1-home {
+    padding-top: 80px;
+  }
+}
 
 @media screen and (min-width: 400px) {
   .hero1-home {
-    padding-top: 120px;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .hero1-home {
+    padding-top: 90px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .hero1-home {
-    padding-top: 138px;
+    padding-top: 105px;
   }
 }
 

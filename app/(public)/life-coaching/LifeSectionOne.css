@@ -1,7 +1,7 @@
 .life-coach-section {
   min-height: 100vh;
   width: 100%;
-  padding-top: 130px;
+  padding-top: 110px;
   color: var(--green);
   font-weight: 700;
   padding-bottom: 6em;
@@ -10,25 +10,25 @@
 
 @media screen and (min-width: 350px) {
   .life-coach-section {
-    padding-top: 120px;
+    padding-top: 90px;
   }
 }
 
 @media screen and (min-width: 400px) {
   .life-coach-section {
-    padding-top: 110px;
+    padding-top: 90px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .life-coach-section {
-    padding-top: 135px;
+    padding-top: 110px;
   }
 }
 
 @media screen and (min-width: 900px) {
   .life-coach-section {
-    padding-top: 135px;
+    padding-top: 100px;
   }
 }
 

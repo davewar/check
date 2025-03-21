@@ -9,9 +9,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 import { ImCross } from "react-icons/im";
 import Image from "next/image";
-// import logoimg from "../../public/Capture (1).jpg";
+
 // import logoimg from "../../public/logo-120.webp";
-import logoimg from "../../public/logo-80.webp";
+import logoimg from "../../public/logo-120.webp";
+// import logoimg2 from "../../public/logo-120.webp";
 
 import { useRouter } from "next/navigation";
 
@@ -51,10 +52,19 @@ const Navbar = () => {
           <div className="website-name" onClick={() => handleLogo()}>
             <Image
               src={logoimg}
-              alt="company logo which shows a camera len outline in white with green background"
+              alt="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
+              aria-label="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
               className="logo"
               priority={true}
             />
+
+            {/* <Image
+              src={logoimg2}
+              alt="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
+              aria-label="company logo which is a round circle with a camera lens in the middle with the checking the gate on the outside of the circle."
+              className="logo2"
+              priority={true}
+            /> */}
             <div className="website-text ">
               <h1 className="website-title">CHECKING THE GATE</h1>
               <p className="website-line">CHECK YOUR LENS, RESET AND REFRAME</p>

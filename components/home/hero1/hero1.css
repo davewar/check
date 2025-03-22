@@ -14,15 +14,33 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .hero1-home {
     padding-top: 80px;
   }
 }
 
+@media screen and (min-width: 330px) {
+  .hero1-home {
+    padding-top: 95px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .hero1-home {
+    padding-top: 100px;
+  }
+}
+
 @media screen and (min-width: 400px) {
   .hero1-home {
-    padding-top: 90px;
+    padding-top: 110px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .hero1-home {
+    padding-top: 120px;
   }
 }
 

@@ -12,7 +12,7 @@ import Image from "next/image";
 
 // import logoimg from "../../public/logo-120.webp";
 import logoimg from "../../public/logo-120.webp";
-import logoimg2 from "../../public//logo-175.webp";
+import logoimg2 from "../../public//logo-160.webp";
 
 import { useRouter } from "next/navigation";
 

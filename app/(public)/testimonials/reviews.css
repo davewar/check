@@ -16,12 +16,10 @@
     #041c40
   );
 
-  /* background-image: url("../../../public/Pixabay\ tunnel-1090486.webp") !important; */
-  background-image: url("../../../public/review-page.webp") !important;
+  background-image: url("../../../public/review-312.webp") !important;
   background-repeat: no-repeat;
   background-position: center !important;
   background-size: cover !important;
-
   padding-bottom: 5em;
 }
 

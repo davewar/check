@@ -18,10 +18,10 @@
   height: 100vh;
   display: block;
   width: 100%;
-  /* 
-  background-image: url("../../../public/life-coaching-page-340.webp") !important; */
+
+  background-image: url("../../../public/life-coaching-page-340.webp") !important;
   /* background-image: url("../../../public/road-800_1000.webp") !important; */
-  background-image: url("../../../public/road-6839134_640\ Menu\ Page-cropped.jpg") !important;
+  /* background-image: url("../../../public/road-6839134_640\ Menu\ Page-cropped.jpg") !important; */
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
@@ -178,9 +178,8 @@
     display: block;
     width: 100%;
 
-    /* background-image: url("../../../public/home-section1-600.webp") !important; */
-    /* background-image: url("../../../public/life-coaching-page-640.webp") !important; */
-    background-image: url("../../../public/road-800_1000.webp") !important;
+    background-image: url("../../../public/life-coaching-page-640.webp") !important;
+
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
@@ -193,11 +192,10 @@
     display: block;
     width: 100%;
 
-    /* background-image: url("../../../public/home-section1-340.webp") !important; */
-    background-image: url("../../../public/road-6839134_640\ Menu\ Page-cropped.jpg") !important;
+    background-image: url("../../../public/life-coaching-page-1024.webp") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    background-position: bottom -200px center;
+    background-position: bottom 0.1px center;
   }
 }
 

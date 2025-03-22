@@ -2,7 +2,7 @@
   background-color: var(--blue);
   min-height: 96vh;
   width: 100%;
-  background-image: url("../../../public/contact-340-test.webp") !important;
+  background-image: url("../../../public/contact-1500.webp") !important;
   background-repeat: no-repeat;
   background-position: center !important;
   background-size: cover !important;
@@ -205,20 +205,18 @@
 
 /* background image */
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
   .background {
     background-color: var(--blue);
     min-height: 96vh;
     width: 100%;
-    /* background-image: url("../../../public/iStock-1366005418.jpg") !important; */
-    background-image: url("../../../public/contact-340-test.webp") !important;
+
+    background-image: url("../../../public/contact-1500.webp") !important;
     background-repeat: no-repeat;
     background-position: center center !important;
     background-size: cover !important;
-    /* padding-top: 200px; */
-    /* overflow: hidden; */
   }
-}
+} */
 
 @media screen and (min-width: 1800px) {
   .background {
@@ -228,6 +226,7 @@
     background-image: url("../../../public/iStock-1366005418\ \(1\).jpg") !important;
 
     background-repeat: no-repeat; */
+    /* background-position: center center; */
 
     background-position: center -100px !important;
     /* background-size: cover !important; */

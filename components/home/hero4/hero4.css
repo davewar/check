@@ -2,7 +2,7 @@
   display: block;
   width: 100%;
   min-height: 100vh;
-  background-image: url("../../../public/home-section4-340.webp") !important;
+  background-image: url("../../../public/early-morning-in-the-country-side-there-are-film-crew-outside-filimg-and-there-are-blue-and-white-clouds-340.webp") !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
 
 @media screen and (min-width: 800px) {
   .container-hero4 {
-    background-image: url("../../../public/home-section4-340.webp") !important;
+    background-image: url("../../../public/early-morning-in-the-country-side-there-are-film-crew-outside-filimg-and-there-are-blue-and-white-clouds-640.webp") !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 1200px) {
   .container-hero4 {
-    background-image: url("../../../public/home-section4-340.webp") !important;
+    background-image: url("../../../public/early-morning-in-the-country-side-there-are-film-crew-outside-filimg-and-there-are-blue-and-white-clouds-640.webp") !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

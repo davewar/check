@@ -9,7 +9,7 @@
 @media (max-width: 360px) {
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../public/home-section1-340.webp") !important;
+      url("../../../public/night-image-of-a-narrow-road-lit-up-a-green-illumination-portal-door-which-has-tall-dark-trees-each-side-of-the-road-340.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -22,7 +22,7 @@
 @media (max-width: 599px) {
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../public/home-section1-600.webp") !important;
+      url("../../../public/night-image-of-a-narrow-road-lit-up-a-green-illumination-portal-door-which-has-tall-dark-trees-each-side-of-the-road-600.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -36,7 +36,7 @@
 @media (min-width: 600px) {
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../public/home-section1-1024.webp") !important;
+      url("../../../public/night-image-of-a-narrow-road-lit-up-a-green-illumination-portal-door-which-has-tall-dark-trees-each-side-of-the-road-1024.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;

@@ -2,6 +2,7 @@
   height: 100vh;
   background-color: var(--blue);
   position: relative;
+  min-width: 100%;
 }
 
 /* how to parralax */
@@ -10,35 +11,29 @@
 /*--- Start Parallax Style --*/
 
 .parallax-home2 {
-  background: url("../../../public/home-section2-340.webp") 100% !important;
+  background: url("../../../public/image-of-a-man-standing-in-forest-at-night-with-a-bright-illuminated-square--portal-door-340.webp")
+    100% !important;
   text-align: center;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center center !important;
   background-color: var(--blue);
+  width: 100%;
 }
 
 @media screen and (min-width: 500px) {
   .parallax-home2 {
-    background: url("../../../public/home-section2-640.webp") fixed 100% !important;
+    background: url("../../../public/image-of-a-man-standing-in-forest-at-night-with-a-bright-illuminated-square--portal-door-640.webp")
+      fixed 100% !important;
     text-align: center;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: bottom center !important;
     background-color: var(--blue);
+    width: 100%;
   }
-}
-
-.hero2-box {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  border: 2px solid blue; */
 }
 
 .hero2-box {
@@ -54,13 +49,15 @@
 
 @media screen and (min-width: 800px) {
   .parallax-home2 {
-    background: url("../../../public/home-section2-1024.webp") fixed 100% !important;
+    background: url("../../../public/image-of-a-man-standing-in-forest-at-night-with-a-bright-illuminated-square--portal-door-1245.webp")
+      fixed 100% !important;
     text-align: center;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: bottom center !important;
     background-color: var(--blue);
+    width: 100%;
   }
 }
 

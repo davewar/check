@@ -1,7 +1,7 @@
 .about-page {
   width: 100%;
   color: var(--white);
-  background-image: url("../../../public/about-me-360.webp");
+  background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-360.webp");
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
@@ -17,6 +17,24 @@
   justify-content: center;
   align-items: center;
   padding-top: 90px;
+}
+
+@media screen and (min-width: 300px) {
+  .about-page {
+    padding-top: 110px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .about-page {
+    padding-top: 135px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .about-page {
+    padding-top: 90px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -147,7 +165,7 @@
     min-height: 96vh;
     display: block;
     width: 100%;
-    background-image: url("../../../public/about-me-800.webp") !important;
+    background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-800.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;

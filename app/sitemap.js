@@ -1,6 +1,7 @@
-import type { MetadataRoute } from "next";
+// import type { MetadataRoute } from "next";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+// export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   return [
     {
       url: `${process.env.NEXTAUTH_URL}`,

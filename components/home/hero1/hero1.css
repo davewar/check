@@ -55,6 +55,11 @@
     padding-top: 90px;
   }
 }
+@media screen and (min-width: 1450px) {
+  .hero1-home {
+    padding-top: 64px;
+  }
+}
 
 .hero1-section-1 {
   width: 100%;

@@ -31,6 +31,7 @@ ul {
 
 .website-line {
   color: var(--white);
+
   font-weight: 500;
   font-size: 0.7em;
   /* margin-top: 0em; */
@@ -66,7 +67,7 @@ ul {
 }
 
 .website-title {
-  color: var(--white);
+  color: var(--color-gold);
 }
 
 .nav-button {
@@ -78,7 +79,7 @@ ul {
 }
 
 #cf-bar {
-  color: white;
+  color: var(--color-gold);
   height: 3em;
   width: 3em;
   margin-bottom: auto;

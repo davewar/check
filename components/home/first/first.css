@@ -17,29 +17,26 @@
   display: block;
   width: 100%;
   /* background-image: url("../../../public/image-of-mountain-man-standing-on-top-of-a-mountain-which-has-an-illuminated-neon-pink-portal-door-with-a-blue-sky-and-red-clouds-340.webp") !important; */
-  background-image: url("../../../public/road-512_640.webp") !important;
+  background-image: url("../../../public/road-6839134_640.webp") !important;
 
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+/* @media (min-width: 600px) and (max-width: 1000px) {
   .first {
     background-color: var(--blue);
     height: 100vh;
 
     display: block;
     width: 100%;
-    background-image: url("../../../public/road-512_640.webp") !important;
-
-    /* background-image: url("../../../public/image-of-mountain-man-standing-on-top-of-a-mountain-which-has-an-illuminated-neon-pink-portal-door-with-a-blue-sky-and-red-clouds-640.webp") !important; */
-
+    background-image: url("../../../public/road-6839134_640.webp") !important;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
   }
-}
+} */
 
 @media (min-width: 1600px) {
   .first {
@@ -47,11 +44,12 @@
     min-height: 100vh;
     display: block;
     width: 100%;
-    background-image: url("../../../public/road-960_1200.webp") !important;
+    /* background-image: url("../../../public/road-6839134_640.webp") !important; */
 
     background-repeat: no-repeat;
     background-size: cover !important;
-    background-position: bottom -550px center;
+    background-position: bottom -650px center;
+    /* background-position: bottom -850px center; */
   }
 }
 @media (min-width: 1800px) {

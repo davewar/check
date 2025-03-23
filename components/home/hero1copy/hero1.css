@@ -9,16 +9,6 @@
   padding-bottom: 2em;
 }
 
-.hero1-home {
-  min-height: 100vh;
-  width: 100%;
-
-  padding-top: 100px;
-  color: var(--white);
-
-  font-weight: 700;
-  padding-bottom: 2em;
-}
 @media screen and (min-width: 300px) {
   .hero1-home {
     padding-top: 80px;
@@ -71,6 +61,7 @@
     padding-top: 65px;
   }
 }
+
 @media screen and (min-width: 800px) {
   .hero1-home {
     padding-top: 105px;

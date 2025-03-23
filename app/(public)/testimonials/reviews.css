@@ -16,16 +16,39 @@
     #041c40
   );
 
-  background-image: url("../../../public/image-of-a-wide-purple-coloured-corridor-with-neon-purple-light-panels-on-each-side-of-the-corridor-312.webp") !important;
+  /* background-image: url("../../../public/image-of-a-wide-purple-coloured-corridor-with-neon-purple-light-panels-on-each-side-of-the-corridor-312.webp") !important; */
+  background-image: url("../../../public/image-of-mountain-man-standing-on-top-of-a-mountain-which-has-an-illuminated-neon-pink-portal-door-with-a-blue-sky-and-red-clouds-340.webp") !important;
   background-repeat: no-repeat;
   background-position: center !important;
   background-size: cover !important;
   padding-bottom: 5em;
 }
 
+@media (min-width: 600px) and (max-width: 1000px) {
+  .review-page {
+    background-color: var(--blue);
+    min-height: 96vh;
+
+    display: block;
+    width: 100%;
+    background-image: url("../../../public/road-512_640.webp") !important;
+    background-image: url("../../../public/image-of-mountain-man-standing-on-top-of-a-mountain-which-has-an-illuminated-neon-pink-portal-door-with-a-blue-sky-and-red-clouds-640.webp") !important;
+
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: cover !important;
+    padding-bottom: 5em;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .review-page {
     height: 96vh;
+    background-image: url("../../../public/image-of-mountain-man-standing-on-top-of-a-mountain-which-has-an-illuminated-neon-pink-portal-door-with-a-blue-sky-and-red-clouds-1024.webp") !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: cover !important;
+    padding-bottom: 5em;
   }
 }
 

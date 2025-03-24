@@ -9,10 +9,30 @@
   background-color: var(--blue);
   /* border: 2px solid red; */
 
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 45%;
+  padding-bottom: 25%;
 }
 
+@media screen and (min-width: 600px) {
+  .container-hero4 {
+    padding-top: 30%;
+    padding-bottom: 25%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container-hero4 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    min-height: 94vh;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container-hero4 {
+    height: 96vh;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+}
 .hero-4-text {
   color: var(--white);
   text-transform: uppercase;

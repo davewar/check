@@ -1,7 +1,10 @@
 .about-page {
   width: 100%;
   color: var(--white);
-  background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-360.webp");
+  /* 
+  background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-360.webp"); */
+  background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-w600.webp") !important;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
@@ -39,7 +42,7 @@
 
 @media screen and (min-width: 1000px) {
   .about-page {
-    padding-top: 10px;
+    padding-top: 13%;
   }
 }
 
@@ -160,12 +163,12 @@
 }
 
 /* 340*191 */
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 600px) {
   .about-page {
     min-height: 96vh;
     display: block;
     width: 100%;
-    background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage-800.webp") !important;
+    background-image: url("../../../public/about-me-page-image-of-a-stage-studio-set-with-bright-white-lights-shining-down-on-to-a-wooden-floor-stage.webp") !important;
 
     background-repeat: no-repeat;
     background-size: cover !important;

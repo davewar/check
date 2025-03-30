@@ -19,22 +19,22 @@
   display: block;
   width: 100%;
 
-  background-image: url("../../../public/road-6839134_640.webp") !important;
+  background-image: url("../../../public/image-of-a-man-standing-in-a-road-with-red-fields-on-each-side-of-the-road-in-the-far-distance-are-white-and-black-mountains-with-white-sky-line-cropped.webp") !important;
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 550px) {
   .first {
     background-color: var(--blue);
-    min-height: 100vh;
+    background-image: url("../../../public/image-of-a-man-standing-in-a-road-with-red-fields-on-each-side-of-the-road-in-the-far-distance-are-white-and-black-mountains-with-white-sky-line.webp") !important;
     display: block;
     width: 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover !important;
-    background-position: bottom -650px center;
+    background-position: center;
   }
 }
 @media (min-width: 1800px) {

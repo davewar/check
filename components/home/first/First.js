@@ -12,6 +12,7 @@ const First = () => {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       const t1 = gsap.timeline();
+
       t1.from("#intro-slider", {
         xPercent: "-100",
         duration: 1.3,
@@ -96,7 +97,7 @@ const First = () => {
           </h1>
           <h1 className="text-9xl" id="title-3">
             <span className="title-long">FILMING INDUSTRY EXPERT</span>
-            <span className="title-short">A SHORT TEXT HERE</span>
+            <span className="title-short">ACCREDITED</span>
           </h1>
           <h1 className="text-9xl" id="title-3A">
             MENTOR

@@ -192,25 +192,28 @@
 /* nokia lumia */
 @media (width: 320px) and (height: 533px) {
   .hero1-home {
-    min-height: 100vh;
-    width: 100%;
-    /* background-color: blue; */
-    padding-top: 80px;
-    color: var(--white);
+    padding-top: 30px;
+    padding-bottom: 2em !important;
+    min-height: 200vh !important;
+  }
+}
 
-    font-weight: 700;
+/* 320 x 533 */
+/* iphone se */
+@media (width: 375px) and (height: 667px) {
+  .hero1-home {
+    min-height: 200vh !important;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 1em;
   }
 }
 
 /* iphone 5se 320x568 */
 @media (width: 320px) and (height: 568px) {
   .hero1-home {
-    min-height: 100vh;
-    width: 100%;
-    /* background-color: blue; */
-    padding-top: 95px;
-    color: var(--white);
-
-    font-weight: 700;
+    padding-top: 30px;
+    min-height: 200vh !important;
+    padding-bottom: 1em;
   }
 }
